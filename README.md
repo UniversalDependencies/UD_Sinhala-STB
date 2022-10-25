@@ -27,13 +27,13 @@ The Sinhala language is an Ido-aryan language spoken by about 20 million people 
 Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fictions, news
-Lemmas: manually annotated
-UPOS: manually annotated
-XPOS: none
-Features: converted from manual
-Relations: converted from manual
-Contributors: Chamila Liyanage and  Kengatharaiyer Sarveswaran
+Genre: fiction government news nonfiction web
+Lemmas: manual native
+UPOS: manual native
+XPOS: manual native
+Features: manual native
+Relations: manual native
+Contributors: Chamila, Liyanage; Kengatharaiyer;Sarveswaran
 Contributing: elsewhere
 Contact: chamila.82@gmail.com, sarves@univ.jfn.ac.lk
 ===============================================================================
