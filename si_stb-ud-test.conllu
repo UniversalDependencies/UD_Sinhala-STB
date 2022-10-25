@@ -1092,7 +1092,7 @@
 4	වන්නේ	වෙ	VERB	_	VerbForm=Fin|Tense=Pres	9	csubj	_	_
 5	ඉහත	ඉහත	NOUN	_	Gender=Neut|Case=Nom	6	advmod	_	_
 6	කී	කි	VERB	_	VerbForm=Part|Tense=Past|Voice=Act	8	acl	_	_
-7	ආර්ථික	ආර්ථික	ADJ	_	Gender=Neut|Number=Sing|Case=Nom	8	amod	_	_
+7	ආර්ථික	ආර්ථික	NOUN	_	Gender=Neut|Number=Sing|Case=Nom	8	nmod	_	_
 8	දුෂ්කරතා	දුෂ්කර	NOUN	_	Gender=Neut|Number=Plur|Case=Nom	9	nmod	_	_
 9	මධ්‍යයේ	මධ්‍ය	NOUN	_	Gender=Neut|Definite=Def|Case=Ine	0	root	_	_
 10	ය	ය	PART	_	AdpType=Post	9	dep	_	_
