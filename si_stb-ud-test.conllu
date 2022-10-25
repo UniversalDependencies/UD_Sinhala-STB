@@ -1276,4 +1276,4 @@
 5	සල්ලි	සල්ලි	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Number=Ptan	3	obj	_	_
 6	ගැන	ගැන	ADP	_	AdpType=Post	5	case	_	_
 7	පමණය	පමණ	ADP	_	AdpType=Post	5	case	_	_
-8	.	.	PUNCT	_	_|	3	punct	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
