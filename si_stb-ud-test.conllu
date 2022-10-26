@@ -399,8 +399,8 @@
 # sent_id = 1033
 # text = එහෙත් අවසානයේ ඔහු ඉලක්කය ජය ගත්තේ ය .
 # translit = ehet avasānayē ohu ilakkaya jaya gattē ya .
-1	එහෙත්	එහෙත්	ADV	_	AdpType=Prep	5	advmod	_	_
-2	අවසානයේ	අවසාන	ADV	_	AdvType=Tim|Definite=Def|Gender=Neut|Number=Sing	5	advmod	_	_
+1	එහෙත්	එහෙත්	ADV	_	_	5	advmod	_	_
+2	අවසානයේ	අවසාන	ADV	_	AdvType=Tim|Definite=Def	5	advmod	_	_
 3	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	_
 4	ඉලක්කය	ඉලක්ක	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obj	_	_
 5	ජය	ජය	NOUN	_	_	0	root	_	_
