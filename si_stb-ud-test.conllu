@@ -158,7 +158,7 @@
 # text = මැස්සන් ඇහිරුණු අලුත් කඩය මාස කිහිපයකින් වසා දැමිණි .
 # translit = mæssan æhiruṇu alut kaḍaya māsa kihipayakin vasā dæmiṇi .
 1	මැස්සන්	මැසි	NOUN	_	Animacy=Anim|Case=Acc|Number=Plur	2	nsubj	_	_
-2	ඇහිරුණු	ඇහිරෙ	ADJ	_	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+2	ඇහිරුණු	ඇහිරෙ	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
 3	අලුත්	අලුත්	ADJ	_	Degree=Pos	4	amod	_	_
 4	කඩය	කඩ	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
 5	මාස	මස	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	6	nmod	_	_
@@ -198,7 +198,7 @@
 1	ආර්ථිකය	ආර්ථික	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	dep	_	_
 2	පිළිබඳ	පිළිබඳ	ADP	_	AdpType=Post	1	case	_	_
 3	දැනුම	දැනුම	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|VerbForm=Vnoun	6	nsubj	_	_
-4	එහි	එහි	PRON	_	Case=Loc|Number=Sing|PronType=Dem	6	advmod	_	_
+4	එහි	එහි	ADV	_	Case=Loc	6	advmod	_	_
 5	දී	දී	PART	_	AdpType=Post	4	case	_	_
 6	අනිවාර්ය	අනිවාර්ය	NOUN	_	_	0	root	_	_
 7	වේ	වෙ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	compound:lvc	_	_
@@ -211,7 +211,7 @@
 2	රාජපක්ෂ	රාජපක්ෂ	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	3	flat	_	_
 3	මහතාට	මහතා	NOUN	_	Animacy=Anim|Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	පුළුල්	පුළුල්	ADJ	_	Degree=Pos	6	amod	_	_
-5	ආර්ථික	ආර්ථික	ADJ	_	Case=Nom	6	compound	_	_
+5	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom	6	nmod	_	_
 6	දර්ශනයක්	දර්ශන	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	_
 7	තිබේ	තිබෙ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
