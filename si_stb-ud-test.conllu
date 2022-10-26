@@ -79,7 +79,7 @@
 # sent_id = 1007
 # text = මෙහි දී අයථා ක්‍රියා ගණනාවක් සිදු වී ඇත .
 # translit = mehi dī ayathā kriyā gaṇanāvak sidu vī æta .
-1	මෙහි  මේ  ADV _ AdvType=Loc 6 advmod  _ _
+1	මෙහි	මේ	ADV	_	AdvType=Loc	6	advmod 	_	_
 2	දී	දී	PART	_	AdpType=Post	1	case	_	_
 3	අයථා	අයථා	NOUN	_	Case=Nom	4	nmod	_	_
 4	ක්‍රියා	ක්‍රියා	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
