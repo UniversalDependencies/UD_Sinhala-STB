@@ -79,9 +79,9 @@
 # sent_id = 1007
 # text = මෙහි දී අයථා ක්‍රියා ගණනාවක් සිදු වී ඇත .
 # translit = mehi dī ayathā kriyā gaṇanāvak sidu vī æta .
-1	මෙහි	මේ	PRON	_	AdvType=Loc	6	dep	_	_
+1	මෙහි	මේ  ADV _	AdvType=Loc	6	advmod	_	_
 2	දී	දී	PART	_	AdpType=Post	1	case	_	_
-3	අයථා	අයථා	ADJ	_	Case=Nom	4	nmod	_	_
+3	අයථා	අයථා	NOUN	_	Case=Nom	4	nmod	_	_
 4	ක්‍රියා	ක්‍රියා	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
 5	ගණනාවක්	ගණන	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	dep	_	_
 6	සිදු	සිදු	PART	_	_	0	root	_	_
@@ -120,7 +120,7 @@
 # translit = meban̆du yakṣayan dēśapālana piṭṭaniyen piṭuvahal kaḷa yutu ya .
 1	මෙබඳු	මෙබඳු	ADJ	_	_	2	nmod	_	_
 2	යක්ෂයන්	යක්ෂ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
-3	දේශපාලන	දේශපාලන	ADJ	_	Case=Nom|Gender=Neut	4	nmod	_	_
+3	දේශපාලන	දේශපාලන	NOUN	_	Case=Nom|Gender=Neut	4	nmod	_	_
 4	පිට්ටනියෙන්	පිට්ටනි	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Gender=Neut|Number=Sing	5	dep	_	_
 5	පිටුවහල්	පිටුවහල්	NOUN	_	Animacy=Inan|Gender=Neut	0	root	_	_
 6	කළ	කර	VERB	_	Mood=Nec|VerbForm=Part|Voice=Act	5	compound:lvc	_	_
@@ -134,7 +134,7 @@
 1	රණවිරුවන්	රණවිරු	NOUN	_	Animacy=Anim|Case=Acc|Number=Plur	4	nsubj	_	_
 2	ජීවිත	ජීවිත	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	3	dep	_	_
 3	පරිත්‍යාගයෙන්	පරිත්‍යාග	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	4	dep	_	_
-4	දිනාගත්	දිනාගන්	ADJ	_	Tense=Past|VerbForm=Part	5	nmod	_	_
+4	දිනාගත්	දිනාගන්	VERB	_	Tense=Past|VerbForm=Part	5	acl	_	_
 5	නිදහස	නිදහස	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 6	අහෝසි	අහෝසි	NOUN	_	_	0	root	_	_
 7	වනු	වෙ	VERB	_	Aspect=Prosp|Mood=Ind	6	compound:lvc	_	_
