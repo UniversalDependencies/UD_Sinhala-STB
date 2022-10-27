@@ -184,7 +184,7 @@
 # text = උද්ධමනය ශීඝ්‍ර ලෙස ඉහළ යෑම තවත් කාරණයෙකි .
 # translit = uddhamanaya śīghra lesa ihaḷa yǣma tavat kāraṇayeki .
 1	උද්ධමනය	උද්ධමන	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
-2	ශීඝ්‍ර	ශීඝ්‍ර	ADV	_	Degree=Pos	5	advmod	_	_
+2	ශීඝ්‍ර	ශීඝ්‍ර	ADV	_	AdvType=Man	5	advmod	_	_
 3	ලෙස	ලෙස	PART	_	AdpType=Post	2	case	_	_
 4	ඉහළ	ඉහළ	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	compound:lvc	_	_
 5	යෑම	ය	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Ger	7	csubj	_	_
@@ -198,7 +198,7 @@
 1	ආර්ථිකය	ආර්ථික	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	dep	_	_
 2	පිළිබඳ	පිළිබඳ	ADP	_	AdpType=Post	1	case	_	_
 3	දැනුම	දැනුම	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|VerbForm=Vnoun	6	nsubj	_	_
-4	එහි	එහි	ADV	_	Case=Loc	6	advmod	_	_
+4	එහි	එහි	ADV	_	AdvType=Loc	6	advmod	_	_
 5	දී	දී	PART	_	AdpType=Post	4	case	_	_
 6	අනිවාර්ය	අනිවාර්ය	NOUN	_	_	0	root	_	_
 7	වේ	වෙ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	compound:lvc	_	_
@@ -234,7 +234,7 @@
 1	හමුදා	හමුදා	NOUN	_	Case=Nom|Gender=Neut	2	compound	_	_
 2	ප්‍රධානයකු	ප්‍රධාන	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	රාජ්‍යයක	රාජ්‍ය	NOUN	_	Case=Ine|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
-4	පවතින	පවති	ADJ	_	Tense=Pres|VerbForm=Part	6	ccomp	_	_
+4	පවතින	පවති	VERB	_	Tense=Pres|VerbForm=Part	6	ccomp	_	_
 5	යුද	යුද	NOUN	_	Case=Nom|Gender=Neut	6	compound	_	_
 6	රහස්	රහස්	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	obj	_	_
 7	දනී	දන්	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -294,10 +294,10 @@
 1	එබඳු	එබඳු	ADJ	_	_	2	nmod	_	_
 2	තැනැත්තන්	තැනැත්ත	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
 3	ෂැවොලින්	ෂැවොලින්	PROPN	_	Foreign=Yes	4	nmod	_	_
-4	ආරාමවලට	ආරාම	NOUN	_	Animacy=Inan|Case=Ill|Gender=Neut|Number=Plur	5	advmod:lmod	_	_
+4	ආරාමවලට	ආරාම	NOUN	_	Animacy=Inan|Case=Ill|Gender=Neut|Number=Plur	5	obl:lmod	_	_
 5	වැද්දගන්නේ	වැද්දගන්	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 6	ද	ද	PART	_	AdpType=Post	5	advmod	_	_
-7	නැත	නැත	AUX	_	Polarity=Neg|VerbForm=Fin	5	advmod	_	_
+7	නැත	නැත	AUX	_	Aspect=Prosp|Polarity=Neg|VerbForm=Fin	5	aux	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1025
@@ -306,8 +306,8 @@
 1	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	6	nsubj	_	_
 2	ගරිල්ලා	ගරිල්ලා	NOUN	_	Case=Nom	3	compound	_	_
 3	සංවිධානයක	සංවිධාන	NOUN	_	Case=Ine|Definite=Ind|Gender=Neut|Number=Sing	5	dep	_	_
-4	දේශපාලන	දේශපාලන	ADJ	_	Animacy=Inan|Case=Nom|Number=Ptan	5	nmod	_	_
-5	අංශ	අංශ	NOUN	_	Animacy=AInan|Case=Nom|Number=Plur	6	nmod	_	_
+4	දේශපාලන	දේශපාලන	NOUN	_	Animacy=Inan|Case=Nom|Number=Ptan	5	nmod	_	_
+5	අංශ	අංශ	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	6	nmod	_	_
 6	ප්‍රධානියා	ප්‍රධාන	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
@@ -316,8 +316,8 @@
 # text = ඔහු කලකට පෙර තම දක්ෂතාව පෙන්වූයේ ලේඛනයෙනි .
 # translit = ohu kalakaṭa pera tama dakṣatāva penvūyē lēkhanayeni .
 1	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	6	nsubj	_	_
-2	කලකට	කල	NOUN	_	AdvType=Tim|Definite=Ind|Gender=Neut|Number=Ptan	3	nmod:tmod	_	_
-3	පෙර	පෙර	ADV	_	AdpType=Post	6	advmod	_	_
+2	කලකට	කල	NOUN	_	Definite=Ind|Gender=Neut|Number=Ptan	3	nmod:tmod	_	_
+3	පෙර	පෙර	ADV	_	AdvType=Tim	6	advmod	_	_
 4	තම	තම	PRON	_	Poss=Yes|PronType=Prs	5	nmod	_	_
 5	දක්ෂතාව	දක්ෂ	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obj	_	_
 6	පෙන්වූයේ	පෙන්ව	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part	7	csubj	_	_
@@ -339,7 +339,7 @@
 # sent_id = 1028
 # text = වනාන්තරය පුරා සෝදිසි මෙහෙයුම් ද සිදු කෙරේ .
 # translit = vanāntaraya purā sōdisi meheyum da sidu kerē .
-1	වනාන්තරය	වනාන්තර	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Number=Sing	6	advmod:lmod	_	_
+1	වනාන්තරය	වනාන්තර	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Number=Sing	6	obl:lmod	_	_
 2	පුරා	පුරා	PART	_	AdpType=Post	1	case	_	_
 3	සෝදිසි	සෝදිසි	NOUN	_	Case=Nom	4	compound	_	_
 4	මෙහෙයුම්	මෙහෙයුම	NOUN	_	Case=Acc|Number=Plur|VerbForm=Vnoun	6	nsubj	_	_
@@ -357,7 +357,7 @@
 4	දී	දී	PART	_	AdpType=Post	3	dep	_	_
 5	ජපානයේ	ජපාන	NOUN	_	Case=Ine|Definite=Def|Gender=Neut|Number=Sing	6	advmod:lmod	_	_
 6	ඇති	ඇත	VERB	_	_	0	root	_	_
-7	විය	වෙ	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	compound:lvc	_	_
+7	විය	වෙ	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	compound:lvc	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1030
@@ -367,9 +367,9 @@
 2	ආචාර	ආචාර	NOUN	_	Case=Nom|Gender=Neut	3	compound:lvc	_	_
 3	කිරීම	කර	NOUN	_	Definite=Def|Number=Sing|VerbForm=Ger	6	csubj	_	_
 4	සඳහා	සඳහා	PART	_	AdpType=Post	3	case	_	_
-5	බල්ලෙකුවත්	බල්ල	NOUN	_	Animacy=Anim|Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	_
+5	බල්ලෙකුවත්	බල්ල	NOUN	_	Animacy=Anim|Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_
 6	සිටියේ	සිටි	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-7	නැත	නැත	AUX	_	Polarity=Neg|VerbForm=Fin	6	advmod	_	_
+7	නැත	නැත	AUX	_	Polarity=Neg|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1031
@@ -377,7 +377,7 @@
 # translit = dæn ehi uparima avasthāva udā vī tibē .
 1	දැන්	දැන්	ADV	_	AdvType=Tim	5	advmod	_	_
 2	එහි	එය	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	nmod	_	_
-3	උපරිම	උපරිම	ADJ	_	Case=Nom	4	amod	_	_
+3	උපරිම	උපරිම	ADJ	_	Degree=Pos	4	amod	_	_
 4	අවස්ථාව	අවස්ථා	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	උදා	උදා	NOUN	_	_	0	root	_	_
 6	වී	වෙ	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Part|Voice=Act	5	compound:lvc	_	_
@@ -389,9 +389,9 @@
 # translit = sākacchāvala aramuṇa ayavæya chandayen āṇḍuva pæradavīma ya .
 1	සාකච්ඡාවල	සාකච්ඡා	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
 2	අරමුණ	අරමුණ	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	අයවැය	අයවැය	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	4	nmod	_	_
+3	අයවැය	අයවැය	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	4	nmod	_	_
 4	ඡන්දයෙන්	ඡන්ද	NOUN	_	Case=Abl|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
-5	ආණ්ඩුව	ආණ්ඩු	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	_
+5	ආණ්ඩුව	ආණ්ඩු	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	6	obj	_	_
 6	පැරදවීම	පරදි	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Ger	0	root	_	_
 7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
@@ -411,7 +411,7 @@
 # sent_id = 1034
 # text = කලක් ඔහු පලස්තීනය වෙනුවෙන් පෙනී සිටියේ ය .
 # translit = kalak ohu palastīnaya venuven penī siṭiyē ya .
-1	කලක්	කල	ADV	_	AdvType=Tim|Case=Acc|Definite=Ind|Gender=Neut|Number=Ptan	5	advmod	_	_
+1	කලක්	කල	NOUN	_	AdvType=Tim|Case=Acc|Definite=Ind|Gender=Neut|Number=Ptan	5	obl:tmod	_	_
 2	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	_
 3	පලස්තීනය	පලස්තීන	PROPN	_	Case=Acc|Definite=Def|Foreign=Yes|Gender=Neut|Number=Sing	5	obl	_	_
 4	වෙනුවෙන්	වෙනුවෙන්	ADP	_	AdpType=Post	3	case	_	_
@@ -447,7 +447,7 @@
 # sent_id = 1037
 # text = ඒ අනාගත පුරවැසියන් ගේ දැනගැනීම සඳහා ය .
 # translit = ē anāgata puravæsiyan gē dænagænīma san̆dahā ya .
-1	ඒ	ඒ	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+1	ඒ	ඒ	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	අනාගත	අනාගත	NOUN	_	Case=Nom|Gender=Neut	3	nmod	_	_
 3	පුරවැසියන්	පුරවැසි	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
 4	ගේ	ගේ	PART	_	AdpType=Post	3	case	_	_
@@ -459,7 +459,7 @@
 # sent_id = 1038
 # text = එදා ජනතාව සිය යුතුකම ඉටු කළේ ය .
 # translit = edā janatāva siya yutukama iṭu kaḷē ya .
-1	එදා	එදා	PRON	_	AdvType=Tim	5	obl:tmod	_	_
+1	එදා	එදා	ADV	_	AdvType=Tim	5	obl:tmod	_	_
 2	ජනතාව	ජනතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	සිය	සිය	PRON	_	Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 4	යුතුකම	යුතුකම	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obj	_	_
@@ -471,7 +471,7 @@
 # sent_id = 1039
 # text = නූතන ඉරානය යනු ආසියාවේ බලවත් ම රාජ්‍යයෙකි .
 # translit = nūtana irānaya yanu āsiyāvē balavat ma rājyayeki .
-1	නූතන	නූතන	ADJ	_	Case=Nom	2	amod	_	_
+1	නූතන	නූතන	NOUN	_	Case=Nom	2	amod	_	_
 2	ඉරානය	ඉරාන	PROPN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
 3	යනු	යනු	PART	_	AdpType=Post	2	case	_	_
 4	ආසියාවේ	ආසියා	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	_
@@ -483,8 +483,8 @@
 # sent_id = 1040
 # text = ඒ ලෝකයා නො මඟ යැවීම සඳහා ය .
 # translit = ē lōkayā no man̆ga yævīma san̆dahā ya .
-1	ඒ	ඒ	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
-2	ලෝකයා	ලෝක	NOUN	_	Animacy=Anim|Case=Acc|Definite=Def|Number=Sing	5	nsubj	_	_
+1	ඒ	ඒ	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	ලෝකයා	ලෝක	NOUN	_	Animacy=Anim|Case=Acc|Definite=Def|Number=Sing	5	obj	_	_
 3	නො	නො	PART	_	AdpType=Prep	4	dep	_	_
 4	මඟ	මඟ	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	compound:prt	_	_
 5	යැවීම	යව	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Ger	0	root	_	_
@@ -499,7 +499,7 @@
 2	මෙරටට	මෙරට	NOUN	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl:lmod	_	_
 3	ලබාගත	ලබාගන්	VERB	_	Mood=Pot	4	compound:prt	_	_
 4	හැකි	හැක	AUX	_	VerbForm=Part	6	acl	_	_
-5	ආර්ථික	ආර්ථික	ADJ	_	Case=Nom	6	amod	_	_
+5	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom	6	nmod	_	_
 6	වාසි	වාසි	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 7	රැසකි	රැස	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -532,12 +532,12 @@
 # text = ලිප්ටන් වටරවුමේ පිකට් කිරීමට ද බාධාවක් නැත .
 # translit = lipṭan vaṭaravumē pikaṭ kirīmaṭa da bādhāvak næta .
 1	ලිප්ටන්	ලිප්ටන්	PROPN	_	Case=Nom	2	flat	_	_
-2	වටරවුමේ	වටරවුම	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	4	advmod:lmod	_	_
+2	වටරවුමේ	වටරවුම	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	4	obl:lmod	_	_
 3	පිකට්	පිකට්	NOUN	_	Case=Nom	4	nsubj	_	_
-4	කිරීමට	කර	NOUN	_	VerbForm=Inf	6	csubj	_	_
+4	කිරීමට	කර	VERB	_	VerbForm=Inf	6	csubj	_	_
 5	ද	ද	PART	_	AdpType=Post	6	advmod	_	_
 6	බාධාවක්	බාධා	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
-7	නැත	නැත	AUX	_	Polarity=Neg|VerbForm=Fin	6	advmod	_	_
+7	නැත	නැත	AUX	_	Polarity=Neg|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1045
@@ -545,8 +545,8 @@
 # translit = ehet ada tattvaya muḷumanin ma satuṭudāyaka ya .
 1	එහෙත්	එහෙත්	CCONJ	_	_	6	cc	_	_
 2	අද	අද	NOUN	_	Case=Nom	3	nmod	_	_
-3	තත්ත්වය	තත්ත්ව	NOUN	_	Case=Nom|Definite=IDef|Gender=Neut|Number=Sing	6	nsubj	_	_
-4	මුළුමනින්	මුළුමනින්	ADP	_	AdvType=Man	6	advmod	_	_
+3	තත්ත්වය	තත්ත්ව	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	මුළුමනින්	මුළුමනින්	ADV	_	AdvType=Man	6	advmod	_	_
 5	ම	ම	PART	_	AdpType=Post	4	case	_	_
 6	සතුටුදායක	සතුටුදායක	ADJ	_	Degree=Pos	0	root	_	_
 7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
@@ -555,7 +555,7 @@
 # sent_id = 1046
 # text = එහි ඉතා පැහැදිලි හා ගැඹුරු අදහසක් තිබේ .
 # translit = ehi itā pæhædili hā gæm̆buru adahasak tibē .
-1	එහි	එහි	NOUN	_	Case=Loc|Number=Sing|PronType=Dem	7	obl:lmod	_	_
+1	එහි	එහි	PRON	_	Case=Loc|Number=Sing|PronType=Dem	7	obl:lmod	_	_
 2	ඉතා	ඉතා	ADV	_	_	3	advmod	_	_
 3	පැහැදිලි	පැහැදිලි	ADJ	_	Degree=Pos	6	amod	_	_
 4	හා	හා	CCONJ	_	_	3	cc	_	_
@@ -580,9 +580,9 @@
 # text = අවසන් මොහොතේ යථාර්ථය පිළිගන්නට යුනෙස්කෝ අධිපතිවරයාට සිදුවිය .
 # translit = avasan mohotē yathārthaya piḷigannaṭa yuneskō adhipativarayāṭa siduviya .
 1	අවසන්	අවසන්	NOUN	_	Case=Nom	2	nmod	_	_
-2	මොහොතේ	මොහොත	NOUN	_	AdvType=Tim	7	obl:tmod	_	_
+2	මොහොතේ	මොහොත	NOUN	_	Case=Loc|Definite=Def|Gender=Neut|Number=Sing	7	obl:tmod	_	_
 3	යථාර්ථය	යථාර්ථ	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obj	_	_
-4	පිළිගන්නට	පිළිගන්	NOUN	_	VerbForm=Inf	7	xcomp	_	_
+4	පිළිගන්නට	පිළිගන්	VERB	_	VerbForm=Inf	7	xcomp	_	_
 5	යුනෙස්කෝ	යුනෙස්කෝ	PROPN	_	Case=Nom	6	flat	_	_
 6	අධිපතිවරයාට	අධිපති	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	සිදුවිය	සිදුවෙ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -596,7 +596,7 @@
 3	තත්ත්වය	තත්ත්ව	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 4	මුළුමනින්	මුළුමනින්	ADV	_	AdvType=Man	6	advmod	_	_
 5	ම	ම	PART	_	AdpType=Post	4	case	_	_
-6	වෙනස්	වෙනස	NOUN	_	Degree=Pos	0	root	_	_
+6	වෙනස්	වෙනස්	NOUN	_	_	0	root	_	_
 7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -647,17 +647,17 @@
 5	කොමිස්වලට	කොමිස්	NOUN	_	Animacy=Inan|Case=Cns|Gender=Neut|Number=Plur	6	obj	_	_
 6	යට	යට	NOUN	_	_	0	root	_	_
 7	වන්නේ	වෙ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part|Voice=Act	6	compound:lvc	_	_
-8	නැත	නැත	AUX	_	_	6	advmod	_	_
+8	නැත	නැත	AUX	_	Aspect=Prosp|Polarity=Neg|VerbForm=Fin	6	aux	_	_
 9	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1054
 # text = දෙවැන්න අත්අඩංගුවේ පසුවන කොටි ත්‍රස්තවාදීන් නිදහස් කිරීම ය .
 # translit = devænna ataḍaṁguvē pasuvana koṭi trastavādīn nidahas kirīma ya .
-1	දෙවැන්න	දෙවන	NUM	_	Definite=Def|Number=Sing|NumType=Ord	6	advmod	_	_
+1	දෙවැන්න	දෙවන	NUM	_	Definite=Def|Number=Sing|NumType=Ord	6	nsubj	_	_
 2	අත්අඩංගුවේ	අත්අඩංගු	NOUN	_	Case=Ine|Definite=Def|Gender=Neut	3	dep	_	_
 3	පසුවන	පසුවෙ	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
 4	කොටි	කොටි	NOUN	_	Animacy=Anim|Case=Nom|Number=Plur	5	compound	_	_
-5	ත්‍රස්තවාදීන්	ත්‍රස්තවාද	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	ත්‍රස්තවාදීන්	ත්‍රස්තවාද	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
 6	නිදහස්	නිදහස	NOUN	_	Animacy=Inan|Gender=Neut	0	root	_	_
 7	කිරීම	කර	VERB	_	VerbForm=Ger|Voice=Act	6	compound:lvc	_	_
 8	ය	ය	PART	_	AdpType=Post	7	dep	_	_
@@ -666,8 +666,8 @@
 # sent_id = 1055
 # text = අද නිදහසේ හුස්ම පොදක් ගැනීමේ අවස්ථාව ජනතාවට තිබේ .
 # translit = ada nidahasē husma podak gænīmē avasthāva janatāvaṭa tibē .
-1	අද	අද	ADV	_	AdvType=Tim|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl:tmod	_	_
-2	නිදහසේ	නිදහස්	NOUN	_	AdvType=Man|Definite=Def|Gender=Neut|Number=Sing	5	advmod	_	_
+1	අද	අද	NOUN	_	AdvType=Tim|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl:tmod	_	_
+2	නිදහසේ	නිදහස්	NOUN	_	AdvType=Man|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
 3	හුස්ම	හුස්ම	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	_
 4	පොදක්	පොද	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
 5	ගැනීමේ	ගන්	NOUN	_	Number=Sing|VerbForm=Ger	6	acl	_	_
@@ -694,7 +694,7 @@
 1	දැන්	දැන්	ADV	_	AdvType=Tim	3	advmod	_	_
 2	ක්‍රියාත්මක	ක්‍රියාත්මක	ADJ	_	_	3	compound:lvc	_	_
 3	වන්නේ	වෙ	VERB	_	Tense=Pres|VerbForm=Part	6	csubj	_	_
-4	එහි	ඒ	PRON	_	Case=Loc|Number=Sing|PronType=Dem	6	advmod	_	_
+4	එහි	ඒ	ADV	_	AdvType=Loc	6	advmod	_	_
 5	පළමු	පළමු	NUM	_	NumType=Ord	6	amod	_	_
 6	අදියර	අදියර	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
@@ -707,7 +707,7 @@
 2	ජාතියේ	ජාති	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
 3	ප්‍රණාමය	ප්‍රණාම	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	හිමි	හිමි	ADJ	_	_	0	root	_	_
-5	විය	වෙ	VERB	_	VerbForm=Inf	4	compound:lvc	_	_
+5	විය	වෙ	VERB	_	Mood=Nec|VerbForm=Part	4	compound:lvc	_	_
 6	යුතු	යුතු	AUX	_	VerbForm=Fin	5	aux	_	_
 7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -721,7 +721,7 @@
 4	ශිල්පයෙහි	ශිල්ප	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	_
 5	කෙළ	කෙළ	NOUN	_	_	6	compound	_	_
 6	පැමිණියෝ	පැමිණි	NOUN	_	Animacy=Anim|Case=Nom|Number=Plur|VerbForm=Vnoun	0	root	_	_
-7	වූහ	වෙ	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+7	වූහ	වෙ	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1060
@@ -730,16 +730,16 @@
 1	ඔව්හු	ඔහු	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|PronType=Prs|Typo=Yes	6	nsubj	_	_
 2	යුද	යුද	NOUN	_	Case=Nom|Gender=Neut|Number=Ptan	3	compound	_	_
 3	උපායෙහි	උපාය	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	_
-4	දක්ෂ	දක්ෂ	ADJ	_	Case=Nom	6	amod	_	_
-5	අභීත	අභීත	ADJ	_	Case=Nom	6	amod	_	_
+4	දක්ෂ	දක්ෂ	ADJ	_	_	6	amod	_	_
+5	අභීත	අභීත	ADJ	_	_	6	amod	_	_
 6	රණකාමීහු	රණකාමි	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
-7	වෙති	වෙ	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+7	වෙති	වෙ	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1061
 # text = එහි දී මතුවන ප්‍රධාන අභියෝග කිහිපයක් වේ .
 # translit = ehi dī matuvana pradhāna abhiyōga kihipayak vē .
-1	එහි	එහි	ADV	_	Case=Loc|Number=Sing|PronType=Dem	3	advmod	_	_
+1	එහි	එහි	ADV	_	AdvType=Loc	3	advmod	_	_
 2	දී	දී	ADP	_	AdpType=Post	1	case	_	_
 3	මතුවන	මතුවෙ	VERB	_	Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
 4	ප්‍රධාන	ප්‍රධාන	ADJ	_	Degree=Pos	5	amod	_	_
@@ -775,7 +775,7 @@
 # sent_id = 1064
 # text = දෙවැන්න ජනතාව වෙනුවෙන් අඛණ්ඩව වැඩ කිරීම යි .
 # translit = devænna janatāva venuven akhaṇḍava væḍa kirīma yi .
-1	දෙවැන්න	දෙවැනි	NUM	_	Case=Nom|Definite=Def|Number=Sing|NumType=Ord	5	nsubj	_	_
+1	දෙවැන්න	දෙවැනි	NOUN	_	Case=Nom|Definite=Def|Number=Sing|NumType=Ord	5	nsubj	_	_
 2	ජනතාව	ජනතා	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	_
 3	වෙනුවෙන්	වෙනුවෙන්	ADP	_	AdpType=Post	2	case	_	_
 4	අඛණ්ඩව	අඛණ්ඩ	ADV	_	AdvType=Man	5	advmod	_	_
@@ -792,7 +792,7 @@
 3	ම	ම	PART	_	AdpType=Post	2	case	_	_
 4	ආණ්ඩුව	ආණ්ඩුව	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 5	ගෙදර	ගෙදර	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	dep	_	_
-6	යැවීමේ	යව	NOUN	_	Case=Cns|Definite=Def|Number=Sing|VerbForm=Ger	7	acl	_	_
+6	යැවීමේ	යව	VERB	_	Case=Cns|Definite=Def|Number=Sing|VerbForm=Ger	7	acl	_	_
 7	සටනෙකි	සටන	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -802,7 +802,7 @@
 1	ඒ	ඒ	DET	_	_	2	det	_	_
 2	සියල්ල	සියලු	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	පරාජය	පරාජය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	compound:lvc	_	_
-4	කිරීමට	කර	NOUN	_	Case=Cns|Definite=Def|Number=Sing|VerbForm=Ger	6	xcomp	_	_
+4	කිරීමට	කර	VERB	_	Case=Cns|Definite=Def|Number=Sing|VerbForm=Ger	6	xcomp	_	_
 5	දේශප්‍රේමීන්ට	දේශප්‍රේම	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	6	nsubj	_	_
 6	හැකි	හැක	AUX	_	VerbForm=Fin	0	root	_	_
 7	විණි	වෙ	VERB	_	Mood=Ind|Tense=Past	6	dep	_	_
@@ -849,7 +849,7 @@
 7	ජනමූල	ජනමූල	ADJ	_	_	8	compound	_	_
 8	නායකයකු	නායක	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	_
 9	අවශ්‍ය	අවශ්‍ය	ADJ	_	_	0	root	_	_
-10	වේ	වෙ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+10	වේ	වෙ	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 1070
@@ -870,7 +870,7 @@
 # sent_id = 1071
 # text = මේ ගිවිසුමට විපක්ෂනායක රනිල් වික්‍රමසිංහ මහතා ද අස්සන් කර තිබේ .
 # translit = mē givisumaṭa vipakṣanāyaka ranil vikramasiṁha mahatā da assan kara tibē .
-1	මේ	මේ	DET	_	Case=Nom|PronType=Dem	2	det	_	_
+1	මේ	මේ	DET	_	_	2	det	_	_
 2	ගිවිසුමට	ගිවිසුම	NOUN	_	Case=Cns|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	_
 3	විපක්ෂනායක	විපක්ෂනායක	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
 4	රනිල්	රනිල්	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	flat	_	_
@@ -888,8 +888,8 @@
 1	රනිල්	රනිල්	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	flat:name	_	_
 2	වික්‍රමසිංහ	වික්‍රමසිංහ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	flat:name	_	_
 3	මහතා	මහතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
-4	මීට	මෙය	PRON	_	Case=Dat|Definite=Def|Number=Sing|PronType=Dem	5	dep	_	_
-5	පෙර	පෙර	NOUN	_	Case=Nom|Definite=Def|Gender=Masc	8	advmod	_	_
+4	මීට	මෙ	PRON	_	Case=Dat|Number=Sing|PronType=Dem	5	dep	_	_
+5	පෙර	පෙර	ADV	_	_	8	advmod	_	_
 6	ද	ද	PART	_	_	5	case	_	_
 7	රට	රට	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	_
 8	පාවා	පාව	VERB	_	Mood=Ind|VerbForm=Part	0	root	_	_
@@ -945,14 +945,14 @@
 # sent_id = 1076
 # text = සැබෑ ලෙස ම ශ්‍රී ලංකාව කිරෙන් ස්වයංපෝෂිත කළ හැකි රටකි .
 # translit = sæbǣ lesa ma śrī laṁkāva kiren svayaṁpōṣita kaḷa hæki raṭaki .
-1	සැබෑ	සැබෑ	ADV	_	Degree=Pos	8	advmod:emph	_	_
+1	සැබෑ	සැබෑ	ADV	_	_	8	advmod:emph	_	_
 2	ලෙස	ලෙස	ADP	_	AdpType=Post	1	case	_	_
 3	ම	ම	PART	_	_	2	dep	_	_
 4	ශ්‍රී	ශ්‍රී	PROPN	_	_	5	compound	_	_
 5	ලංකාව	ලංකා	PROPN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	_
-6	කිරෙන්	කිරි	NOUN	_	Case=Ins|Definite=Def|Gender=Neut|Number=Sing	8	advmod	_	_
-7	ස්වයංපෝෂිත	ස්වයංපෝෂ	ADJ	_	Tense=Past|VerbForm=Part	8	compound:lvc	_	_
-8	කළ	කර	VERB	_	Mood=Pot	10	advcl	_	_
+6	කිරෙන්	කිරි	NOUN	_	Case=Ins|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	_
+7	ස්වයංපෝෂිත	ස්වයංපෝෂ	VERB	_	Tense=Past|VerbForm=Part	10	acl	_	_
+8	කළ	කර	VERB	_	Mood=Pot	7	compound:lvc	_	_
 9	හැකි	හැක	AUX	_	VerbForm=Part	8	aux	_	_
 10	රටකි	රට	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -996,8 +996,8 @@
 4	කිහිපයක්	කිහිප	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
 5	සිදු	සිදු	NOUN	_	_	10	csubj	_	_
 6	වී	වෙ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Conv	5	compound:lvc	_	_
-7	ඇති	ඇත	AUX	_	Aspect=Perf|VerbForm=Inf	6	aux	_	_
-8	බව	බව	ADP	_	AdpType=Post	7	case	_	_
+7	ඇති	ඇත	AUX	_	Aspect=Perf|VerbForm=Part	6	aux	_	_
+8	බව	බව	ADP	_	AdpType=Post	6	case	_	_
 9	ද	ද	PART	_	_	10	advmod	_	_
 10	සත්‍යයෙකි	සත්‍ය	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -1007,7 +1007,7 @@
 # translit = meya ārthika vidyāvē dī han̆dunvannē keṭi kālīna uddhamanaya lesa ya .
 1	මෙය	මෙය	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom|Gender=Neut	3	compound	_	_
-3	විද්‍යාවේ	විද්‍යා	NOUN	_	Case=Loc|Definite=Def|Gender=Neut|Number=Sing	5	advmod	_	_
+3	විද්‍යාවේ	විද්‍යා	NOUN	_	Case=Loc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
 4	දී	දී	PART	_	AdpType=Post	3	case	_	_
 5	හඳුන්වන්නේ	හඳුන්ව	VERB	_	Tense=Pres|VerbForm=Part	8	csubj	_	_
 6	කෙටි	කෙට	ADJ	_	Degree=Pos	7	amod	_	_
@@ -1022,14 +1022,14 @@
 # translit = aya væya vivādaya atara dēśapālana pil māru sidu vemin pavatī .
 1	අය	අය	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	compound	_	_
 2	වැය	වැය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
-3	විවාදය	විවාද	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	advmod	_	_
+3	විවාදය	විවාද	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obl:tmod	_	_
 4	අතර	අතර	ADP	_	_	3	case	_	_
 5	දේශපාලන	දේශපාලන	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	6	nmod	_	_
 6	පිල්	පිල	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	compound	_	_
 7	මාරු	මාරු	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	8	nsubj	_	_
 8	සිදු	සිදු	NOUN	_	_	0	root	_	_
 9	වෙමින්	වෙ	VERB	_	Aspect=Prog|Tense=Pres|VerbForm=Conv	8	compound:lvc	_	_
-10	පවතී	පවති	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+10	පවතී	පවති	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 1082
@@ -1048,8 +1048,8 @@
 # text = ඔහු ඉතා අල්පේච්ඡ ජීවිතයක් ගතකළ ජනතා පුත්‍රයෙකි .
 # translit = ohu itā alpēccha jīvitayak gatakaḷa janatā putrayeki .
 1	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	7	nsubj	_	_
-2	ඉතා	ඉතා	ADP	_	_	3	advmod	_	_
-3	අල්පේච්ඡ	අල්පේච්ඡ	ADJ	_	Case=Nom	4	amod	_	_
+2	ඉතා	ඉතා	ADV	_	_	3	advmod	_	_
+3	අල්පේච්ඡ	අල්පේච්ඡ	ADJ	_	Degree=Pos	4	amod	_	_
 4	ජීවිතයක්	ජීවිත	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
 5	ගතකළ	ගතකර	VERB	_	Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	_
 6	ජනතා	ජනතා	NOUN	_	Animacy=Anim|Case=Nom	7	flat	_	_
@@ -1064,8 +1064,8 @@
 3	නායකයකුට	නායක	NOUN	_	Animacy=Anim|Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	ඉරානයෙන්	ඉරාන	NOUN	_	Case=Abl|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
 5	ආරාධනා	ආරාධනා	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
-6	ලැබෙන්නේ	ලැබෙ	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Part|Voice=Pass	0	root	_	_
-7	නැත	නෑ	AUX	_	Polarity=Neg|VerbForm=Fin	6	advmod	_	_
+6	ලැබෙන්නේ	ලැබෙ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+7	නැත	නෑ	AUX	_	Aspect=Prosp|Polarity=Neg|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1085
@@ -1073,24 +1073,24 @@
 # translit = vivr̥ta ārthika kramaya tuḷa mahā parimāṇa veḷen̆da madhyasthāna nagarayē idiviṇi .
 1	විවෘත	විවෘත	ADJ	_	_	2	compound	_	_
 2	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
-3	ක්‍රමය	ක්‍රම	NOUN	_	Case=Ins|Definite=Def|Gender=Neut|Number=Sing	10	advmod	_	_
+3	ක්‍රමය	ක්‍රම	NOUN	_	Case=Ins|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	_
 4	තුළ	තුළ	ADP	_	AdpType=Post	3	case	_	_
 5	මහා	මහා	ADJ	_	_	6	amod	_	_
 6	පරිමාණ	පරිමාණ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	_
 7	වෙළෙඳ	වෙළෙඳ	NOUN	_	Case=Nom|Gender=Neut	8	compound	_	_
 8	මධ්‍යස්ථාන	මධ්‍යස්ථාන	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	nsubj	_	_
-9	නගරයේ	නගර	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Gender=Neut|Number=Sing	10	advmod:lmod	_	_
+9	නගරයේ	නගර	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Gender=Neut|Number=Sing	10	obl:lmod	_	_
 10	ඉදිවිණි	ඉදිවෙ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 1086
 # text = මෙවර අයවැය ඉදිරිපත් වන්නේ ඉහත කී ආර්ථික දුෂ්කරතා මධ්‍යයේ ය .
 # translit = mevara ayavæya idiripat vannē ihata kī ārthika duṣkaratā madhyayē ya .
-1	මෙවර	මෙවර	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	advmod	_	_
+1	මෙවර	මෙවර	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	3	obl:tmod	_	_
 2	අයවැය	අයවැය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	ඉදිරිපත්	ඉදිරිපත්	ADJ	_	_	4	compound:lvc	_	_
 4	වන්නේ	වෙ	VERB	_	Tense=Pres|VerbForm=Fin	9	csubj	_	_
-5	ඉහත	ඉහත	NOUN	_	Case=Nom|Gender=Neut	6	advmod	_	_
+5	ඉහත	ඉහත	NOUN	_	Case=Nom|Gender=Neut	6	obl	_	_
 6	කී	කි	VERB	_	Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	_
 7	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	_
 8	දුෂ්කරතා	දුෂ්කර	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	9	nmod	_	_
@@ -1104,11 +1104,11 @@
 1	හම්බන්තොට	හම්බන්තොට	PROPN	_	Animacy=Inan|Case=Nom|Number=Sing	3	nsubj	_	_
 2	පිහිටා	පිහිට	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv	3	compound:svc	_	_
 3	ඇත්තේ	ඇත	VERB	_	Tense=Pres|VerbForm=Fin	9	csubj	_	_
-4	ලොව	ලොව	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Gender=Neut	8	advmod:lmod	_	_
+4	ලොව	ලොව	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Gender=Neut	8	obl:lmod	_	_
 5	කාර්ය	කාර්ය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	compound	_	_
-6	බහුල	බහුල	ADJ	_	_	8	advmod	_	_
+6	බහුල	බහුල	ADJ	_	_	8	amod	_	_
 7	නෞකා	නෞකා	NOUN	_	Animacy=Inan|Case=Nom|Definite=Def|Number=Plur	8	nmod	_	_
-8	මාර්ගයක්	මාර්ග	NOUN	_	Animacy=Inan|Case=Acc|Definite=Ind|Number=Sing	9	advmod:lmod	_	_
+8	මාර්ගයක්	මාර්ග	NOUN	_	Animacy=Inan|Case=Acc|Definite=Ind|Number=Sing	9	obl:lmod	_	_
 9	ආසන්නයේ	ආසන්න	NOUN	_	Case=Loc|Gender=Neut	0	root	_	_
 10	ය	ය	PART	_	AdpType=Post	9	dep	_	_
 11	.	.	PUNCT	_	_	9	punct	_	_
@@ -1121,7 +1121,7 @@
 3	පිහිටා	පිහිට	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv	4	compound:svc	_	_
 4	ඇත්තේ	ඇත	VERB	_	Tense=Pres|VerbForm=Fin	9	csubj	_	_
 5	ඉන්දියන්	ඉන්දියා	NOUN	_	_	6	compound	_	_
-6	සාගරයේ	සාගර	NOUN	_	Case=Ine|Definite=Def|Gender=Neut|Number=Sing	9	advmod:lmod	_	_
+6	සාගරයේ	සාගර	NOUN	_	Case=Ine|Definite=Def|Gender=Neut|Number=Sing	9	obl:lmod	_	_
 7	ඉතා	ඉතා	ADV	_	_	8	advmod	_	_
 8	වැදගත්	වැදගත්	ADJ	_	Degree=Pos	9	amod	_	_
 9	කේන්ද්‍රස්ථානයක	කේන්ද්‍රස්ථාන	NOUN	_	Animacy=Inan|Case=Ine|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
@@ -1134,7 +1134,7 @@
 1	කුමන්ත්‍රණය	කුමන්ත්‍රණ	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	සාර්ථක	සාර්ථක	ADJ	_	_	6	acl	_	_
 3	කරගැනීමේ	කරගන්	NOUN	_	Case=Gen|Definite=Def|Number=Sing|VerbForm=Ger	2	compound:lvc	_	_
-4	වැඩි	වැඩි	ADJ	_	Degree=Pos	6	det	_	_
+4	වැඩි	වැඩි	NOUN	_	Degree=Pos	6	amod	_	_
 5	ම	ම	PART	_	AdpType=Post	4	dep	_	_
 6	උනන්දුව	උනන්දු	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
 7	ඇත්තේ	ඇත	VERB	_	Tense=Pres|VerbForm=Fin	9	csubj	_	_
@@ -1149,10 +1149,10 @@
 1	වාණිජ	වාණිජ	NOUN	_	Case=Nom|Gender=Neut	2	nmod	_	_
 2	මණ්ඩලයේ	මණ්ඩල	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	_
 3	සාමාජිකයෝ	සමාජ	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
-4	කිහිප	කිහිප	DET	_	Case=Nom|Gender=Neut	5	det	_	_
+4	කිහිප	කිහිප	NOUN	_	Case=Nom|Gender=Neut	5	nmod	_	_
 5	දෙනෙක්	දෙනා	NOUN	_	Animacy=Anim|Case=Nom|Definite=Ind	3	nmod	_	_
 6	ද	ද	PART	_	_	9	advmod	_	_
-7	මෙවර	මෙවර	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	_
+7	මෙවර	මෙවර	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	_
 8	අයවැය	අයවැය	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	_
 9	අගය	අගය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 10	කරති	කර	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	compound:lvc	_	_
@@ -1163,7 +1163,7 @@
 # translit = ada tattvaya bohō seyin ma venas ya .
 1	අද	අද	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
 2	තත්ත්වය	තත්ත්ව	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	බොහෝ	බොහෝ	NOUN	_	_	6	advmod	_	_
+3	බොහෝ	බොහෝ	NOUN	_	Case=Nom	6	obl	_	_
 4	සෙයින්	සෙයින්	NOUN	_	_	3	dep	_	_
 5	ම	ම	PART	_	AdpType=Post	3	case	_	_
 6	වෙනස්	වෙනස	NOUN	_	Case=Nom|Gender=Neut	0	root	_	_
@@ -1189,7 +1189,7 @@
 2	මිනිසුන්	මිනිස්	NOUN	_	Animacy=Anim|Case=Acc|Number=Plur	3	obj	_	_
 3	දඩයම්	දඩයම	NOUN	_	Animacy=Inan|Definite=Def|Gender=Neut|Number=Plur	7	csubj	_	_
 4	කිරීම	කර	NOUN	_	Case=Nom|Definite=Def|Number=Sing|VerbForm=Ger	3	compound:lvc	_	_
-5	ධනපති	ධනපති	ADJ	_	Case=Nom	6	compound	_	_
+5	ධනපති	ධනපති	NOUN	_	Case=Nom	6	compound	_	_
 6	ක්‍රමයේ	ක්‍රම	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	_
 7	ලක්ෂණයෙකි	ලක්ෂණ	NOUN	_	Animacy=Inan|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -1215,7 +1215,7 @@
 4	ම	ම	PART	_	AdpType=Post	3	dep	_	_
 5	වැදගත්	වැදගත්	ADJ	_	Degree=Pos	6	amod	_	_
 6	උපදේශ	උපදේශ	NOUN	_	Animacy=Inan|Case=Nom|Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	_
-7	තිබිණි	තිබෙ	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	තිබිණි	තිබෙ	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 1096
@@ -1238,14 +1238,14 @@
 3	හතර	හතර	NUM	_	Case=Nom|Definite=Def|NumType=Card	4	nummod	_	_
 4	අතින්	අත	NOUN	_	Case=Abl|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
 5	වටකරනු	වටකර	VERB	_	Mood=Ind|VerbForm=Ger	0	root	_	_
-6	ලැබ	ලබ	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Part	5	aux:pass	_	_
+6	ලැබ	ලබ	AUX	_	Aspect=Perf|Mood=Ind|VerbForm=Part	5	aux:pass	_	_
 7	තිබේ	තිබෙ	AUX	_	Tense=Pres|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1098
 # text = තෙවනුව ඔවුන් වන්නියේ මෙහෙයුම්වලට අත පොවනු ඇත .
 # translit = tevanuva ovun vanniyē meheyumvalaṭa ata povanu æta .
-1	තෙවනුව	තෙවන	NUM	_	NumType=Ord	5	advmod	_	_
+1	තෙවනුව	තෙවන	ADV	_	AdvType=Tim	5	advmod	_	_
 2	ඔවුන්	ඔවුහු	PRON	_	Animacy=Anim|Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 3	වන්නියේ	වන්නි	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	4	nmod:poss	_	_
 4	මෙහෙයුම්වලට	මෙහෙයුම	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	5	obl	_	_
@@ -1269,11 +1269,12 @@
 # sent_id = 1100
 # text = ඔහු අවධානය යොමුකර ඇත්තේ සල්ලි ගැන පමණය .
 # translit = ohu avadhānaya yomukara ættē salli gæna pamaṇaya .
-1	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
-2	අවධානය	අවධාන	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
-3	යොමුකර	යොමුකර	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+1	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	අවධානය	අවධාන	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	_
+3	යොමුකර	යොමුකර	VERB	_	Tense=Past|VerbForm=Part	5	compound:lvc	_	_
 4	ඇත්තේ	ඇත	AUX	_	VerbForm=Part	3	aux	_	_
-5	සල්ලි	සල්ලි	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Number=Ptan	3	obj	_	_
+5	සල්ලි	සල්ලි	NOUN	_	Animacy=Inan|Case=Acc|Definite=Def|Number=Ptan	0	root	_	_
 6	ගැන	ගැන	ADP	_	AdpType=Post	5	case	_	_
-7	පමණය	පමණ	ADP	_	AdpType=Post	5	case	_	_
-8	.	.	PUNCT	_	_	3	punct	_	_
+7	පමණය	පමණ	ADV	_	_	5	obl	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+
