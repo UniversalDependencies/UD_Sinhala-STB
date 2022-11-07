@@ -28,13 +28,13 @@ Sumangala, H. (1937). Sinhala vyakarana pari:kshanaya. D. C. Karunanayaka, Sri L
 
 # Changelog
 
-* 2021-11-07 v2.8
+* 2021-11-07 v2.11
   * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.9
+Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: fiction government news nonfiction web
