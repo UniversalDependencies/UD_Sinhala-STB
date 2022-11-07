@@ -46,7 +46,7 @@
 4	විස්තර	විස්තර	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
 5	පසුව	පසුව	PART	_	_	6	advmod	_	_
 6	හෙළිදරව්	හෙළිදරව්	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut	0	root	_	_
-7	වනු	වෙ	VERB	_	Aspect=Prosp|Mood=Ind|Voice=Pass	6	compound:lvc	_	_
+7	වනු	වෙ	VERB	_	Aspect=Prosp|Mood=Ind|VerbForm=Ger|Voice=Pass	6	compound:lvc	_	_
 8	ඇත	ඇත	AUX	_	VerbForm=Fin	7	aux	_	_
 9	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -110,7 +110,7 @@
 3	ජනතාව	ජනතා	NOUN	_	Animacy=Anim|Case=Acc|Definite=Def|Number=Sing	5	nsubj	_	_
 4	ම	ම	PART	_	AdpType=Post	3	case	_	_
 5	තීන්දු	තීන්දු	NOUN	_	Animacy=Inan|Gender=Neut|Number=Plur	0	root	_	_
-6	කළ	කර	VERB	_	Mood=Nec|VerbForm=Part|Voice=Act	5	compound:lvc	_	_
+6	කළ	කර	VERB	_	Mood=Nec|VerbForm=Inf|Voice=Act	5	compound:lvc	_	_
 7	යුතු	යුතු	AUX	_	VerbForm=Fin	6	aux	_	_
 8	ය	ය	PART	_	AdpType=Post	5	dep	_	_
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -123,7 +123,7 @@
 3	දේශපාලන	දේශපාලන	NOUN	_	Case=Nom|Gender=Neut	4	nmod	_	_
 4	පිට්ටනියෙන්	පිට්ටනි	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Gender=Neut|Number=Sing	5	dep	_	_
 5	පිටුවහල්	පිටුවහල්	NOUN	_	Animacy=Inan|Gender=Neut	0	root	_	_
-6	කළ	කර	VERB	_	Mood=Nec|VerbForm=Part|Voice=Act	5	compound:lvc	_	_
+6	කළ	කර	VERB	_	Mood=Nec|VerbForm=Inf|Voice=Act	5	compound:lvc	_	_
 7	යුතු	යුතු	AUX	_	VerbForm=Fin	6	aux	_	_
 8	ය	ය	PART	_	AdpType=Post	5	dep	_	_
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -137,7 +137,7 @@
 4	දිනාගත්	දිනාගන්	VERB	_	Tense=Past|VerbForm=Part	5	acl	_	_
 5	නිදහස	නිදහස	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 6	අහෝසි	අහෝසි	NOUN	_	_	0	root	_	_
-7	වනු	වෙ	VERB	_	Aspect=Prosp|Mood=Ind	6	compound:lvc	_	_
+7	වනු	වෙ	VERB	_	Aspect=Prosp|Mood=Ind|VerbForm=Ger	6	compound:lvc	_	_
 8	ඇත	ඇත	AUX	_	Aspect=Prosp|VerbForm=Fin	7	aux	_	_
 9	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -151,7 +151,7 @@
 5	ඉල්ලීම	ඉල්ල	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Vnoun	6	dep	_	_
 6	ඉටු	ඉටු	PART	_	_	0	root	_	_
 7	කළේ	කර	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	compound:lvc	_	_
-8	ය	ය	PART	_	AdpType=Post	7	dep	_	_
+8	ය	ය	PART	_	AdpType=Post	6	dep	_	_
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1013
@@ -207,9 +207,9 @@
 # sent_id = 1017
 # text = මහින්ද රාජපක්ෂ මහතාට පුළුල් ආර්ථික දර්ශනයක් තිබේ .
 # translit = mahinda rājapakṣa mahatāṭa puḷul ārthika darśanayak tibē .
-1	මහින්ද	මහින්ද	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	flat	_	_
-2	රාජපක්ෂ	රාජපක්ෂ	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	3	flat	_	_
-3	මහතාට	මහතා	NOUN	_	Animacy=Anim|Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
+1	මහින්ද	මහින්ද	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+2	රාජපක්ෂ	රාජපක්ෂ	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	1	flat	_	_
+3	මහතාට	මහතා	NOUN	_	Animacy=Anim|Case=Dat|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	_
 4	පුළුල්	පුළුල්	ADJ	_	Degree=Pos	6	amod	_	_
 5	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom	6	nmod	_	_
 6	දර්ශනයක්	දර්ශන	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	_
@@ -425,24 +425,24 @@
 # translit = mahajana cīnaya goḍanæn̆guvē māō sētuṁ sahōdarayā ya .
 1	මහජන	මහජන	NOUN	_	Case=Nom	2	compound	_	_
 2	චීනය	චීන	PROPN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
-3	ගොඩනැඟුවේ	ගොඩනඟ	VERB	_	Tense=Past|VerbForm=Part|Voice=Act	6	csubj	_	_
-4	මාඕ	මාඕ	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	6	flat	_	_
-5	සේතුං	සේතුං	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	6	flat	_	_
-6	සහෝදරයා	සේහෝදර	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
-7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
-8	.	.	PUNCT	_	_	6	punct	_	_
+3	ගොඩනැඟුවේ	ගොඩනඟ	VERB	_	Tense=Past|VerbForm=Part|Voice=Act	4	csubj	_	_
+4	මාඕ	මාඕ	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	0	root	_	_
+5	සේතුං	සේතුං	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	4	flat	_	_
+6	සහෝදරයා	සේහෝදර	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	_
+7	ය	ය	PART	_	AdpType=Post	4	dep	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1036
 # text = නව ටැන්සානියාව බිහි කළේ ජුලියස් නියරේරේ ය .
 # translit = nava ṭænsāniyāva bihi kaḷē juliyas niyarērē ya .
 1	නව	නව	ADJ	_	Degree=Pos	2	compound	_	_
 2	ටැන්සානියාව	ටැන්සානියා	PROPN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	බිහි	බිහි	PART	_	_	6	csubj	_	_
+3	බිහි	බිහි	PART	_	_	5	csubj	_	_
 4	කළේ	කළ	VERB	_	Tense=Past|VerbForm=Part|Voice=Act	3	compound:lvc	_	_
-5	ජුලියස්	ජූලියස්	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	6	flat	_	_
-6	නියරේරේ	නියරේරේ	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	0	root	_	_
-7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
-8	.	.	PUNCT	_	_	6	punct	_	_
+5	ජුලියස්	ජූලියස්	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	0	root	_	_
+6	නියරේරේ	නියරේරේ	PROPN	_	Animacy=Anim|Case=Nom|Number=Sing|Person=3	5	flat	_	_
+7	ය	ය	PART	_	AdpType=Post	5	dep	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1037
 # text = ඒ අනාගත පුරවැසියන් ගේ දැනගැනීම සඳහා ය .
@@ -453,7 +453,7 @@
 4	ගේ	ගේ	PART	_	AdpType=Post	3	case	_	_
 5	දැනගැනීම	දැනගන්	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Ger	0	root	_	_
 6	සඳහා	සඳහා	ADP	_	AdpType=Post	5	case	_	_
-7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
+7	ය	ය	PART	_	AdpType=Post	5	dep	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1038
@@ -497,7 +497,7 @@
 # translit = in meraṭaṭa labāgata hæki ārthika vāsi ræsaki .
 1	ඉන්	එය	PRON	_	Case=Abl|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	මෙරටට	මෙරට	NOUN	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl:lmod	_	_
-3	ලබාගත	ලබාගන්	VERB	_	Mood=Pot	4	compound:prt	_	_
+3	ලබාගත	ලබාගන්	VERB	_	Mood=Pot|VerbForm=Inf	4	compound:prt	_	_
 4	හැකි	හැක	AUX	_	VerbForm=Part	6	acl	_	_
 5	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom	6	nmod	_	_
 6	වාසි	වාසි	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
@@ -509,8 +509,8 @@
 # translit = mē āśirvādaya śrī laṁkāvaṭa behevin vædagat ya .
 1	මේ	මේ	DET	_	_	2	det	_	_
 2	ආශිර්වාදය	ආශීර්වාද	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	ශ්‍රී	ශ්‍රී	ADJ	_	Compound=Yes	4	flat	_	_
-4	ලංකාවට	ලංකා	NOUN	_	Case=Cns|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
+3	ශ්‍රී	ශ්‍රී	ADJ	_	Compound=Yes	6	obl	_	_
+4	ලංකාවට	ලංකා	NOUN	_	Case=Cns|Definite=Def|Gender=Neut|Number=Sing	3	flat	_	_
 5	බෙහෙවින්	බොහෝ	ADV	_	_	6	advmod	_	_
 6	වැදගත්	වැදගත්	ADJ	_	Degree=Pos	0	root	_	_
 7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
@@ -519,8 +519,8 @@
 # sent_id = 1043
 # text = යුරෝපා සංගමය ද එම අදහස ම දරයි .
 # translit = yurōpā saṁgamaya da ema adahasa ma darayi .
-1	යුරෝපා	යුරෝපා	NOUN	_	Case=Nom	2	flat	_	_
-2	සංගමය	සංගම	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
+1	යුරෝපා	යුරෝපා	NOUN	_	Case=Nom	7	nsubj	_	_
+2	සංගමය	සංගම	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	1	flat	_	_
 3	ද	ද	PART	_	AdpType=Post	7	advmod	_	_
 4	එම	ඒ	DET	_	_	5	det	_	_
 5	අදහස	අදහස	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	obj	_	_
@@ -531,10 +531,10 @@
 # sent_id = 1044
 # text = ලිප්ටන් වටරවුමේ පිකට් කිරීමට ද බාධාවක් නැත .
 # translit = lipṭan vaṭaravumē pikaṭ kirīmaṭa da bādhāvak næta .
-1	ලිප්ටන්	ලිප්ටන්	PROPN	_	Case=Nom	2	flat	_	_
-2	වටරවුමේ	වටරවුම	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	4	obl:lmod	_	_
-3	පිකට්	පිකට්	NOUN	_	Case=Nom	4	nsubj	_	_
-4	කිරීමට	කර	VERB	_	VerbForm=Inf	6	csubj	_	_
+1	ලිප්ටන්	ලිප්ටන්	PROPN	_	Case=Nom	3	obl:lmod	_	_
+2	වටරවුමේ	වටරවුම	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	1	flat	_	_
+3	පිකට්	පිකට්	NOUN	_	Case=Nom	6	nsubj	_	_
+4	කිරීමට	කර	VERB	_	VerbForm=Inf	3	csubj	_	_
 5	ද	ද	PART	_	AdpType=Post	6	advmod	_	_
 6	බාධාවක්	බාධා	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 7	නැත	නැත	AUX	_	Polarity=Neg|VerbForm=Fin	6	aux	_	_
@@ -583,7 +583,7 @@
 2	මොහොතේ	මොහොත	NOUN	_	Case=Loc|Definite=Def|Gender=Neut|Number=Sing	7	obl:tmod	_	_
 3	යථාර්ථය	යථාර්ථ	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obj	_	_
 4	පිළිගන්නට	පිළිගන්	VERB	_	VerbForm=Inf	7	xcomp	_	_
-5	යුනෙස්කෝ	යුනෙස්කෝ	PROPN	_	Case=Nom	6	flat	_	_
+5	යුනෙස්කෝ	යුනෙස්කෝ	PROPN	_	Case=Nom	6	nmod	_	_
 6	අධිපතිවරයාට	අධිපති	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	සිදුවිය	සිදුවෙ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -615,14 +615,14 @@
 # sent_id = 1051
 # text = ආණ්ඩුව ඒ සඳහා අවංක ප්‍රයත්නයක් දරමින් සිටී .
 # translit = āṇḍuva ē san̆dahā avaṁka prayatnayak daramin siṭī .
-1	ආණ්ඩුව	ආණ්ඩු	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
-2	ඒ	ඒ	PRON	_	Case=Acc|Gender=Neut|PronType=Dem	7	dep	_	_
+1	ආණ්ඩුව	ආණ්ඩු	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	ඒ	ඒ	PRON	_	Case=Acc|Gender=Neut|PronType=Dem	6	dep	_	_
 3	සඳහා	සඳහා	PART	_	AdpType=Post	2	case	_	_
 4	අවංක	අවංක	ADJ	_	Degree=Pos	5	amod	_	_
-5	ප්‍රයත්නයක්	ප්‍රයත්න	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	dep	_	_
-6	දරමින්	දර	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Part|Voice=Act	7	compound:svc	_	_
-7	සිටී	සිටි	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	.	.	PUNCT	_	_	7	punct	_	_
+5	ප්‍රයත්නයක්	ප්‍රයත්න	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	6	dep	_	_
+6	දරමින්	දර	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Part|Voice=Act	0	root	_	_
+7	සිටී	සිටි	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1052
 # text = මේ දෙදෙනා ම සිය කීර්තිය විනාශ කර ගත්හ .
@@ -660,7 +660,7 @@
 5	ත්‍රස්තවාදීන්	ත්‍රස්තවාද	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
 6	නිදහස්	නිදහස	NOUN	_	Animacy=Inan|Gender=Neut	0	root	_	_
 7	කිරීම	කර	VERB	_	VerbForm=Ger|Voice=Act	6	compound:lvc	_	_
-8	ය	ය	PART	_	AdpType=Post	7	dep	_	_
+8	ය	ය	PART	_	AdpType=Post	6	dep	_	_
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1055
@@ -707,10 +707,10 @@
 2	ජාතියේ	ජාති	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
 3	ප්‍රණාමය	ප්‍රණාම	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	හිමි	හිමි	ADJ	_	_	0	root	_	_
-5	විය	වෙ	VERB	_	Mood=Nec|VerbForm=Part	4	compound:lvc	_	_
+5	විය	වෙ	VERB	_	Mood=Nec|VerbForm=Inf	4	compound:lvc	_	_
 6	යුතු	යුතු	AUX	_	VerbForm=Fin	5	aux	_	_
-7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
-8	.	.	PUNCT	_	_	5	punct	_	_
+7	ය	ය	PART	_	AdpType=Post	4	dep	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1059
 # text = එම නරපතීහු යුද ශිල්පයෙහි කෙළ පැමිණියෝ වූහ .
@@ -767,9 +767,9 @@
 2	හොඳ	හොඳ	ADJ	_	Degree=Pos	3	amod	_	_
 3	සහතිකයක්	සහතික	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
 4	සේ	සේ	ADP	_	AdpType=Post	3	case	_	_
-5	සැලකිය	සලක	VERB	_	Mood=Pot	0	root	_	_
+5	සැලකිය	සලක	VERB	_	Mood=Pot|VerbForm=Inf	0	root	_	_
 6	හැකි	හැක	AUX	_	VerbForm=Fin	5	aux	_	_
-7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
+7	ය	ය	PART	_	AdpType=Post	5	dep	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1064
@@ -781,7 +781,7 @@
 4	අඛණ්ඩව	අඛණ්ඩ	ADV	_	AdvType=Man	5	advmod	_	_
 5	වැඩ	වැඩ	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
 6	කිරීම	කර	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Ger	5	compound:lvc	_	_
-7	යි	යි	PART	_	AdpType=Post	6	dep	_	_
+7	යි	යි	PART	_	AdpType=Post	5	dep	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1065
@@ -811,8 +811,8 @@
 # sent_id = 1067
 # text = ෆොන්සේකා මහතා ඉතා මෝඩ හා උද්ධච්ඡ කතාවක් ද කියා තිබේ .
 # translit = fonsēkā mahatā itā mōḍa hā uddhaccha katāvak da kiyā tibē .
-1	ෆොන්සේකා	ෆොන්සේකා	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	flat	_	_
-2	මහතා	මහතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	_
+1	ෆොන්සේකා	ෆොන්සේකා	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+2	මහතා	මහතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	_
 3	ඉතා	ඉතා	ADV	_	_	4	advmod	_	_
 4	මෝඩ	මෝඩ	ADJ	_	Degree=Pos	7	amod	_	_
 5	හා	හා	CCONJ	_	_	6	cc	_	_
@@ -840,8 +840,8 @@
 # sent_id = 1069
 # text = ශ්‍රී ලංකාව වැනි රාජ්‍යයක් ගොඩනැඟීම සඳහා ජනමූල නායකයකු අවශ්‍ය වේ .
 # translit = śrī laṁkāva væni rājyayak goḍanæn̆gīma san̆dahā janamūla nāyakayaku avaśya vē .
-1	ශ්‍රී	ශ්‍රී	PROPN	_	_	2	flat	_	_
-2	ලංකාව	ලංකා	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_
+1	ශ්‍රී	ශ්‍රී	PROPN	_	_	5	nmod	_	_
+2	ලංකාව	ලංකා	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	1	flat	_	_
 3	වැනි	වැනි	ADP	_	AdpType=Post	2	case	_	_
 4	රාජ්‍යයක්	රාජ්‍ය	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
 5	ගොඩනැඟීම	ගොඩනඟ	NOUN	_	Definite=Def|Number=Sing|VerbForm=Ger	9	nsubj	_	_
@@ -862,9 +862,9 @@
 5	බොහෝ	බොහෝ	ADJ	_	_	6	amod	_	_
 6	දූෂිතකම්	දූෂණ	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 7	සිදු	සිදු	NOUN	_	_	0	root	_	_
-8	විය	වෙ	VERB	_	Mood=Pot	7	compound	_	_
+8	විය	වෙ	VERB	_	Mood=Pot|VerbForm=Inf	7	compound	_	_
 9	හැකි	හැකි	AUX	_	VerbForm=Fin	8	aux	_	_
-10	ය	ය	PART	_	AdpType=Post	9	dep	_	_
+10	ය	ය	PART	_	AdpType=Post	7	dep	_	_
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 1071
@@ -873,9 +873,9 @@
 1	මේ	මේ	DET	_	_	2	det	_	_
 2	ගිවිසුමට	ගිවිසුම	NOUN	_	Case=Cns|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	_
 3	විපක්ෂනායක	විපක්ෂනායක	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
-4	රනිල්	රනිල්	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	flat	_	_
-5	වික්‍රමසිංහ	වික්‍රමසිංහ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	flat	_	_
-6	මහතා	මහතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	රනිල්	රනිල්	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+5	වික්‍රමසිංහ	වික්‍රමසිංහ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	flat	_	_
+6	මහතා	මහතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	_
 7	ද	ද	PART	_	_	8	advmod	_	_
 8	අස්සන්	අස්සන්	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	_
 9	කර	කර	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Conv	8	compound:lvc	_	_
@@ -885,9 +885,9 @@
 # sent_id = 1072
 # text = රනිල් වික්‍රමසිංහ මහතා මීට පෙර ද රට පාවා දුන්නේ ය .
 # translit = ranil vikramasiṁha mahatā mīṭa pera da raṭa pāvā dunnē ya .
-1	රනිල්	රනිල්	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	flat:name	_	_
-2	වික්‍රමසිංහ	වික්‍රමසිංහ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	flat:name	_	_
-3	මහතා	මහතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
+1	රනිල්	රනිල්	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+2	වික්‍රමසිංහ	වික්‍රමසිංහ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	1	flat	_	_
+3	මහතා	මහතා	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	_
 4	මීට	මෙ	PRON	_	Case=Dat|Number=Sing|PronType=Dem	5	dep	_	_
 5	පෙර	පෙර	ADV	_	_	8	advmod	_	_
 6	ද	ද	PART	_	_	5	case	_	_
@@ -934,12 +934,12 @@
 2	සියල්ල	සියලු	NOUN	_	Animacy=Inan|Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	_
 3	ඉතා	ඉතා	ADV	_	_	4	advmod	_	_
 4	මැනැවින්	මැනවින්	ADV	_	AdvType=Man	7	advmod	_	_
-5	ශ්‍රී	ශ්‍රී	PROPN	_	_	6	flat:name	_	_
-6	ලංකාවට	ලංකා	PROPN	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	_
+5	ශ්‍රී	ශ්‍රී	PROPN	_	_	7	obl	_	_
+6	ලංකාවට	ලංකා	PROPN	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	flat	_	_
 7	ගළපා	ගළප	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv	0	root	_	_
-8	ගත	ගන්	VERB	_	Mood=Pot	7	compound:svc	_	_
+8	ගත	ගන්	VERB	_	Mood=Pot|VerbForm=Inf	7	compound:svc	_	_
 9	හැකි	හැක	AUX	_	VerbForm=Fin	8	aux	_	_
-10	ය	ය	PART	_	AdpType=Post	9	dep	_	_
+10	ය	ය	PART	_	AdpType=Post	7	dep	_	_
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 1076
@@ -952,7 +952,7 @@
 5	ලංකාව	ලංකා	PROPN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	_
 6	කිරෙන්	කිරි	NOUN	_	Case=Ins|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	_
 7	ස්වයංපෝෂිත	ස්වයංපෝෂ	VERB	_	Tense=Past|VerbForm=Part	10	acl	_	_
-8	කළ	කර	VERB	_	Mood=Pot	7	compound:lvc	_	_
+8	කළ	කර	VERB	_	Mood=Pot|VerbForm=Inf	7	compound:lvc	_	_
 9	හැකි	හැක	AUX	_	VerbForm=Part	8	aux	_	_
 10	රටකි	රට	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -965,8 +965,8 @@
 3	ප්‍රකාශ	ප්‍රකාශ	NOUN	_	Case=Nom|Gender=Neut	4	compound:lvc	_	_
 4	කෙළේ	කර	VERB	_	Tense=Past|VerbForm=Part|Voice=Act	8	csubj	_	_
 5	සිංගප්පූරුව	සිංගප්පූරු	PROPN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	dep	_	_
-6	ශ්‍රී	ශ්‍රී	PROPN	_	_	7	flat	_	_
-7	ලංකාවක්	ලංකා	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	dep	_	_
+6	ශ්‍රී	ශ්‍රී	PROPN	_	_	8	dep	_	_
+7	ලංකාවක්	ලංකා	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	flat	_	_
 8	කරන	කර	VERB	_	Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 9	බව	බව	ADP	_	AdpType=Post	8	case	_	_
 10	ය	ය	PART	_	AdpType=Post	9	dep	_	_
@@ -995,7 +995,7 @@
 3	අතුරුදන්වීම්	අතුරුදහන්වෙ	NOUN	_	Case=Nom|Number=Sing|VerbForm=Ger	5	nsubj	_	_
 4	කිහිපයක්	කිහිප	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
 5	සිදු	සිදු	NOUN	_	_	10	csubj	_	_
-6	වී	වෙ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Conv	5	compound:lvc	_	_
+6	වී	වෙ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part	5	compound:lvc	_	_
 7	ඇති	ඇත	AUX	_	Aspect=Perf|VerbForm=Part	6	aux	_	_
 8	බව	බව	ADP	_	AdpType=Post	6	case	_	_
 9	ද	ද	PART	_	_	10	advmod	_	_
@@ -1040,7 +1040,7 @@
 3	ම	ම	PART	_	AdpType=Post	2	case	_	_
 4	එහි	එය	PRON	_	Case=Loc|Number=Sing|PronType=Dem	5	nmod:poss	_	_
 5	වගකීම	වගකිය	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Vnoun	6	obj	_	_
-6	භාරගත	භාරගන්	VERB	_	Mood=Nec|VerbForm=Part|Voice=Act	0	root	_	_
+6	භාරගත	භාරගන්	VERB	_	Mood=Nec|VerbForm=Inf|Voice=Act	0	root	_	_
 7	යුතුය	යුතු	AUX	_	VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1052,7 +1052,7 @@
 3	අල්පේච්ඡ	අල්පේච්ඡ	ADJ	_	Degree=Pos	4	amod	_	_
 4	ජීවිතයක්	ජීවිත	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
 5	ගතකළ	ගතකර	VERB	_	Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	_
-6	ජනතා	ජනතා	NOUN	_	Animacy=Anim|Case=Nom	7	flat	_	_
+6	ජනතා	ජනතා	NOUN	_	Animacy=Anim|Case=Nom	7	nmod	_	_
 7	පුත්‍රයෙකි	පුත්‍ර	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1102,7 +1102,7 @@
 # text = හම්බන්තොට පිහිටා ඇත්තේ ලොව කාර්ය බහුල නෞකා මාර්ගයක් ආසන්නයේ ය .
 # translit = hambantoṭa pihiṭā ættē lova kārya bahula naukā mārgayak āsannayē ya .
 1	හම්බන්තොට	හම්බන්තොට	PROPN	_	Animacy=Inan|Case=Nom|Number=Sing	3	nsubj	_	_
-2	පිහිටා	පිහිට	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv	3	compound:svc	_	_
+2	පිහිටා	පිහිට	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	3	compound:svc	_	_
 3	ඇත්තේ	ඇත	VERB	_	Tense=Pres|VerbForm=Fin	9	csubj	_	_
 4	ලොව	ලොව	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Gender=Neut	8	obl:lmod	_	_
 5	කාර්ය	කාර්ය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	compound	_	_
@@ -1260,10 +1260,10 @@
 1	ඔහුට	ඔහු	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	තවදුරටත්	තවදුරට	ADV	_	_	4	advmod	_	_
 3	සමාවක්	සමාව	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
-4	දිය	දෙ	VERB	_	Mood=Nec|VerbForm=Part|Voice=Act	0	root	_	_
+4	දිය	දෙ	VERB	_	Mood=Nec|VerbForm=Inf|Voice=Act	0	root	_	_
 5	නො	නො	PART	_	_	6	dep	_	_
 6	හැකි	හැක	AUX	_	VerbForm=Fin	4	aux	_	_
-7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
+7	ය	ය	PART	_	AdpType=Post	4	dep	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 1100
