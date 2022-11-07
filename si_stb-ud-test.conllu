@@ -353,9 +353,9 @@
 # translit = eban̆du tattvayak 1990 dī japānayē æti viya .
 1	එබඳු	එබඳු	ADJ	_	_	2	nmod	_	_
 2	තත්ත්වයක්	තත්ත්ව	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	1990	1990	NUM	_	NumType=Card	6	advmod	_	_
+3	1990	1990	NUM	_	NumType=Card	6	obl	_	_
 4	දී	දී	PART	_	AdpType=Post	3	dep	_	_
-5	ජපානයේ	ජපාන	NOUN	_	Case=Ine|Definite=Def|Gender=Neut|Number=Sing	6	advmod:lmod	_	_
+5	ජපානයේ	ජපාන	NOUN	_	Case=Ine|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
 6	ඇති	ඇත	VERB	_	_	0	root	_	_
 7	විය	වෙ	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	compound:lvc	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
@@ -498,7 +498,7 @@
 1	ඉන්	එය	PRON	_	Case=Abl|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	මෙරටට	මෙරට	NOUN	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl:lmod	_	_
 3	ලබාගත	ලබාගන්	VERB	_	Mood=Pot|VerbForm=Inf	4	compound:prt	_	_
-4	හැකි	හැක	AUX	_	VerbForm=Part	6	acl	_	_
+4	හැකි	හැකි	AUX	_	VerbForm=Part	6	acl	_	_
 5	ආර්ථික	ආර්ථික	NOUN	_	Case=Nom	6	nmod	_	_
 6	වාසි	වාසි	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
 7	රැසකි	රැස	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
@@ -621,7 +621,7 @@
 4	අවංක	අවංක	ADJ	_	Degree=Pos	5	amod	_	_
 5	ප්‍රයත්නයක්	ප්‍රයත්න	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	6	dep	_	_
 6	දරමින්	දර	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Part|Voice=Act	0	root	_	_
-7	සිටී	සිටි	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	සිටී	සිටි	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 1052
@@ -653,7 +653,7 @@
 # sent_id = 1054
 # text = දෙවැන්න අත්අඩංගුවේ පසුවන කොටි ත්‍රස්තවාදීන් නිදහස් කිරීම ය .
 # translit = devænna ataḍaṁguvē pasuvana koṭi trastavādīn nidahas kirīma ya .
-1	දෙවැන්න	දෙවන	NUM	_	Definite=Def|Number=Sing|NumType=Ord	6	nsubj	_	_
+1	දෙවැන්න	දෙවන	NUM	_	Number=Sing|NumType=Ord	6	nsubj	_	_
 2	අත්අඩංගුවේ	අත්අඩංගු	NOUN	_	Case=Ine|Definite=Def|Gender=Neut	3	dep	_	_
 3	පසුවන	පසුවෙ	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
 4	කොටි	කොටි	NOUN	_	Animacy=Anim|Case=Nom|Number=Plur	5	compound	_	_
@@ -666,8 +666,8 @@
 # sent_id = 1055
 # text = අද නිදහසේ හුස්ම පොදක් ගැනීමේ අවස්ථාව ජනතාවට තිබේ .
 # translit = ada nidahasē husma podak gænīmē avasthāva janatāvaṭa tibē .
-1	අද	අද	NOUN	_	AdvType=Tim|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl:tmod	_	_
-2	නිදහසේ	නිදහස්	NOUN	_	AdvType=Man|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
+1	අද	අද	ADV	_	AdvType=Tim|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl:tmod	_	_
+2	නිදහසේ	නිදහස්	ADV	_	AdvType=Man|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
 3	හුස්ම	හුස්ම	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	_
 4	පොදක්	පොද	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
 5	ගැනීමේ	ගන්	NOUN	_	Number=Sing|VerbForm=Ger	6	acl	_	_
@@ -768,7 +768,7 @@
 3	සහතිකයක්	සහතික	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
 4	සේ	සේ	ADP	_	AdpType=Post	3	case	_	_
 5	සැලකිය	සලක	VERB	_	Mood=Pot|VerbForm=Inf	0	root	_	_
-6	හැකි	හැක	AUX	_	VerbForm=Fin	5	aux	_	_
+6	හැකි	හැකි	AUX	_	VerbForm=Fin	5	aux	_	_
 7	ය	ය	PART	_	AdpType=Post	5	dep	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -792,7 +792,7 @@
 3	ම	ම	PART	_	AdpType=Post	2	case	_	_
 4	ආණ්ඩුව	ආණ්ඩුව	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 5	ගෙදර	ගෙදර	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	dep	_	_
-6	යැවීමේ	යව	VERB	_	Case=Cns|Definite=Def|Number=Sing|VerbForm=Ger	7	acl	_	_
+6	යැවීමේ	යව	VERB	_	Definite=Def|Number=Sing|VerbForm=Ger	7	acl	_	_
 7	සටනෙකි	සටන	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -802,9 +802,9 @@
 1	ඒ	ඒ	DET	_	_	2	det	_	_
 2	සියල්ල	සියලු	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	පරාජය	පරාජය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	compound:lvc	_	_
-4	කිරීමට	කර	VERB	_	Case=Cns|Definite=Def|Number=Sing|VerbForm=Ger	6	xcomp	_	_
+4	කිරීමට	කර	VERB	_	Definite=Def|Number=Sing|VerbForm=Ger	6	xcomp	_	_
 5	දේශප්‍රේමීන්ට	දේශප්‍රේම	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	6	nsubj	_	_
-6	හැකි	හැක	AUX	_	VerbForm=Fin	0	root	_	_
+6	හැකි	හැකි	AUX	_	VerbForm=Fin	0	root	_	_
 7	විණි	වෙ	VERB	_	Mood=Ind|Tense=Past	6	dep	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -938,7 +938,7 @@
 6	ලංකාවට	ලංකා	PROPN	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	flat	_	_
 7	ගළපා	ගළප	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv	0	root	_	_
 8	ගත	ගන්	VERB	_	Mood=Pot|VerbForm=Inf	7	compound:svc	_	_
-9	හැකි	හැක	AUX	_	VerbForm=Fin	8	aux	_	_
+9	හැකි	හැකි	AUX	_	VerbForm=Fin	8	aux	_	_
 10	ය	ය	PART	_	AdpType=Post	7	dep	_	_
 11	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -953,7 +953,7 @@
 6	කිරෙන්	කිරි	NOUN	_	Case=Ins|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	_
 7	ස්වයංපෝෂිත	ස්වයංපෝෂ	VERB	_	Tense=Past|VerbForm=Part	10	acl	_	_
 8	කළ	කර	VERB	_	Mood=Pot|VerbForm=Inf	7	compound:lvc	_	_
-9	හැකි	හැක	AUX	_	VerbForm=Part	8	aux	_	_
+9	හැකි	හැකි	AUX	_	VerbForm=Part	8	aux	_	_
 10	රටකි	රට	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -1239,7 +1239,7 @@
 4	අතින්	අත	NOUN	_	Case=Abl|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
 5	වටකරනු	වටකර	VERB	_	Mood=Ind|VerbForm=Ger	0	root	_	_
 6	ලැබ	ලබ	AUX	_	Aspect=Perf|Mood=Ind|VerbForm=Part	5	aux:pass	_	_
-7	තිබේ	තිබෙ	AUX	_	Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	තිබේ	තිබෙ	AUX	_	Tense=Pres|VerbForm=Fin	5	aux	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1098
@@ -1261,8 +1261,8 @@
 2	තවදුරටත්	තවදුරට	ADV	_	_	4	advmod	_	_
 3	සමාවක්	සමාව	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
 4	දිය	දෙ	VERB	_	Mood=Nec|VerbForm=Inf|Voice=Act	0	root	_	_
-5	නො	නො	PART	_	_	6	dep	_	_
-6	හැකි	හැක	AUX	_	VerbForm=Fin	4	aux	_	_
+5	නො	නො	PART	_	_	4	dep	_	_
+6	හැකි	හැකි	AUX	_	VerbForm=Fin	4	aux	_	_
 7	ය	ය	PART	_	AdpType=Post	4	dep	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
