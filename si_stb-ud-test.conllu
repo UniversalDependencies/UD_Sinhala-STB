@@ -509,7 +509,7 @@
 # translit = mē āśirvādaya śrī laṁkāvaṭa behevin vædagat ya .
 1	මේ	මේ	DET	_	_	2	det	_	_
 2	ආශිර්වාදය	ආශීර්වාද	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
-3	ශ්‍රී	ශ්‍රී	ADJ	_	Compound=Yes	6	obl	_	_
+3	ශ්‍රී	ශ්‍රී	ADJ	_	_	6	obl	_	_
 4	ලංකාවට	ලංකා	NOUN	_	Case=Cns|Definite=Def|Gender=Neut|Number=Sing	3	flat	_	_
 5	බෙහෙවින්	බොහෝ	ADV	_	_	6	advmod	_	_
 6	වැදගත්	වැදගත්	ADJ	_	Degree=Pos	0	root	_	_
