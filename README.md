@@ -13,12 +13,22 @@ The Sinhala language is an Ido-aryan language spoken by about 20 million people 
 
 ## References
 
-* (citation)
+Gunasekara, A. M. (1891). A Comprehensive Grammar of the Sinhalese Language. Godage International Publishers, Sri Lanka.
+
+Karunatillake, W. S. (2009). Sinhala bhasha vyakaranaya. M. D. Gunasena & Co. Ltd, Sri Lanka.
+
+Kumarathunga, M. (1993). kriya viwaranaya. M.D. Gunasena & Company Limited, Sri Lanka.
+
+Kumarathunga, M. (2000). vyakarana vivaranaya. S. Godage & Brothers, Sri Lanka.
+
+Sumanasara, T. (2007). Sinhala Bhashave Vyakaranaya. Wijesooriya Grantha Kendraya, Sri Lanka.
+
+Sumangala, H. (1937). Sinhala vyakarana pari:kshanaya. D. C. Karunanayaka, Sri Lanka.
 
 
 # Changelog
 
-* 2021-05-15 v2.8
+* 2021-11-07 v2.8
   * Initial release in Universal Dependencies.
 
 
