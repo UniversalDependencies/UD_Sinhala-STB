@@ -269,7 +269,7 @@
 # translit = ē depoḷa ekinekā ṭa āśirvāda kara ganiti .
 1	ඒ	ඒ	DET	_	_	2	det	_	_
 2	දෙපොළ	දෙපොළ	NOUN	_	Animacy=Anim|Case=Nom|Definite=Def|Number=Sing	5	nsubj	_	_
-3	එකිනෙකා	එකිනෙක	NOUN	_	Case=Acc|PronType=Rcp	5	obj	_	_
+3	එකිනෙකා	එකිනෙක	PRON	_	Case=Acc|PronType=Rcp	5	obj	_	_
 4	ට	ට	PART	_	AdpType=Post	3	case	_	_
 5	ආශිර්වාද	ආශිර්වාද	NOUN	_	Case=Nom|Definite=Def|Gender=Neut	0	root	_	_
 6	කර	කර	VERB	_	Mood=Ind|VerbForm=Part|Voice=Act	5	compound:lvc	_	_
@@ -411,7 +411,7 @@
 # sent_id = 1034
 # text = කලක් ඔහු පලස්තීනය වෙනුවෙන් පෙනී සිටියේ ය .
 # translit = kalak ohu palastīnaya venuven penī siṭiyē ya .
-1	කලක්	කල	NOUN	_	AdvType=Tim|Case=Acc|Definite=Ind|Gender=Neut|Number=Ptan	5	obl:tmod	_	_
+1	කලක්	කල	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Ptan	5	obl:tmod	_	_
 2	ඔහු	ඔහු	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	_
 3	පලස්තීනය	පලස්තීන	PROPN	_	Case=Acc|Definite=Def|Foreign=Yes|Gender=Neut|Number=Sing	5	obl	_	_
 4	වෙනුවෙන්	වෙනුවෙන්	ADP	_	AdpType=Post	3	case	_	_
@@ -489,7 +489,7 @@
 4	මඟ	මඟ	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	compound:prt	_	_
 5	යැවීම	යව	NOUN	_	Case=Acc|Definite=Def|Number=Sing|VerbForm=Ger	0	root	_	_
 6	සඳහා	සඳහා	ADP	_	AdpType=Post	5	case	_	_
-7	ය	ය	PART	_	AdpType=Post	6	dep	_	_
+7	ය	ය	PART	_	AdpType=Post	5	dep	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 1041
@@ -567,9 +567,9 @@
 # sent_id = 1047
 # text = ඉන්දියාව මෙන්ම පාකිස්ථානය ද අපේ මිතුරෝ ය .
 # translit = indiyāva menma pākisthānaya da apē miturō ya .
-1	ඉන්දියාව	ඉන්දියා	PROPN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	conj	_	_
+1	ඉන්දියාව	ඉන්දියා	PROPN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 2	මෙන්ම	මෙන්	CCONJ	_	_	1	cc	_	_
-3	පාකිස්ථානය	පාකිස්ථාන	PROPN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	පාකිස්ථානය	පාකිස්ථාන	PROPN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	conj	_	_
 4	ද	ද	PART	_	AdpType=Post	3	case	_	_
 5	අපේ	අප	PRON	_	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 6	මිතුරෝ	මිතුර	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -653,7 +653,7 @@
 # sent_id = 1054
 # text = දෙවැන්න අත්අඩංගුවේ පසුවන කොටි ත්‍රස්තවාදීන් නිදහස් කිරීම ය .
 # translit = devænna ataḍaṁguvē pasuvana koṭi trastavādīn nidahas kirīma ya .
-1	දෙවැන්න	දෙවන	NUM	_	Number=Sing|NumType=Ord	6	nsubj	_	_
+1	දෙවැන්න	දෙවන	NUM	_	NumType=Ord	6	nsubj	_	_
 2	අත්අඩංගුවේ	අත්අඩංගු	NOUN	_	Case=Ine|Definite=Def|Gender=Neut	3	dep	_	_
 3	පසුවන	පසුවෙ	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
 4	කොටි	කොටි	NOUN	_	Animacy=Anim|Case=Nom|Number=Plur	5	compound	_	_
@@ -666,8 +666,8 @@
 # sent_id = 1055
 # text = අද නිදහසේ හුස්ම පොදක් ගැනීමේ අවස්ථාව ජනතාවට තිබේ .
 # translit = ada nidahasē husma podak gænīmē avasthāva janatāvaṭa tibē .
-1	අද	අද	ADV	_	AdvType=Tim|Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl:tmod	_	_
-2	නිදහසේ	නිදහස්	ADV	_	AdvType=Man|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
+1	අද	අද	ADV	_	AdvType=Tim	5	obl:tmod	_	_
+2	නිදහසේ	නිදහස්	ADV	_	AdvType=Man	5	obl	_	_
 3	හුස්ම	හුස්ම	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	_
 4	පොදක්	පොද	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	_
 5	ගැනීමේ	ගන්	NOUN	_	Number=Sing|VerbForm=Ger	6	acl	_	_
@@ -947,7 +947,7 @@
 # translit = sæbǣ lesa ma śrī laṁkāva kiren svayaṁpōṣita kaḷa hæki raṭaki .
 1	සැබෑ	සැබෑ	ADV	_	_	8	advmod:emph	_	_
 2	ලෙස	ලෙස	ADP	_	AdpType=Post	1	case	_	_
-3	ම	ම	PART	_	_	2	dep	_	_
+3	ම	ම	PART	_	_	1	dep	_	_
 4	ශ්‍රී	ශ්‍රී	PROPN	_	_	5	compound	_	_
 5	ලංකාව	ලංකා	PROPN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	_
 6	කිරෙන්	කිරි	NOUN	_	Case=Ins|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	_
@@ -969,7 +969,7 @@
 7	ලංකාවක්	ලංකා	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	flat	_	_
 8	කරන	කර	VERB	_	Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 9	බව	බව	ADP	_	AdpType=Post	8	case	_	_
-10	ය	ය	PART	_	AdpType=Post	9	dep	_	_
+10	ය	ය	PART	_	AdpType=Post	8	dep	_	_
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 1078
@@ -1014,7 +1014,7 @@
 7	කාලීන	කාල	ADJ	_	Degree=Pos	8	nmod	_	_
 8	උද්ධමනය	උද්ධමන	NOUN	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 9	ලෙස	ලෙස	ADP	_	AdpType=Post	8	case	_	_
-10	ය	ය	PART	_	AdpType=Post	9	dep	_	_
+10	ය	ය	PART	_	AdpType=Post	8	dep	_	_
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 1081
@@ -1235,7 +1235,7 @@
 # translit = ema pradēśa hatara atin vaṭakaranu læba tibē .
 1	එම	ඒ	PRON	_	PronType=Dem	2	det	_	_
 2	ප්‍රදේශ	ප්‍රදේශ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
-3	හතර	හතර	NUM	_	Case=Nom|Definite=Def|NumType=Card	4	nummod	_	_
+3	හතර	හතර	NUM	_	NumType=Card	4	nummod	_	_
 4	අතින්	අත	NOUN	_	Case=Abl|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
 5	වටකරනු	වටකර	VERB	_	Mood=Ind|VerbForm=Ger	0	root	_	_
 6	ලැබ	ලබ	AUX	_	Aspect=Perf|Mood=Ind|VerbForm=Part	5	aux:pass	_	_
