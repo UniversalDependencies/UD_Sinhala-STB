@@ -1,6 +1,6 @@
 # Summary
 
-This treebank consists contemporary written Sinhala text taken from a 10M corpus maintained by UCSC, Sri Lanka. The corpus contains novels, short stories, Sinhala translations, critiques and Sinhala newspapers. 
+This treebank consists contemporary written Sinhala text taken from a 10M corpus maintained by UCSC, Sri Lanka. The corpus contains novels, short stories, Sinhala translations, critiques and Sinhala newspapers.
 
 
 # Introduction
@@ -43,7 +43,7 @@ UPOS: manual native
 XPOS: manual native
 Features: manual native
 Relations: manual native
-Contributors: Chamila, Liyanage; Kengatharaiyer;Sarveswaran
+Contributors: Chamila, Liyanage; Kengatharaiyer, Sarveswaran
 Contributing: elsewhere
 Contact: chamila.82@gmail.com, sarves@univ.jfn.ac.lk
 ===============================================================================
