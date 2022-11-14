@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>100</sentences><tokens>880</tokens><words>880</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>100</sentences><tokens>880</tokens><words>880</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="417" /><!-- ., ය, කර, වෙ, තිබෙ, ම, ඒ, ද, ඇත, ඔහු, එය, ගන්, ආර්ථික, ඉතා, මේ -->
+  <forms unique="500" /><!-- ., ය, තිබේ, ම, ද, ඒ, ඔහු, දී, ඉතා, නැත, හැකි, එම, එය, එහි, මේ -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">50</tag><!-- වැදගත්, එබඳු, හොඳ, අභීත, අල්පේච්ඡ, අලුත්, අවංක, අවශ්‍ය, ඉදිරිපත්, උද්ධච්ච -->
+    <tag name="ADP">24</tag><!-- පිළිබඳ, සඳහා, තුළ, බව, ලෙස, වෙනුවෙන්, අතර, ඉතා, ගැන, දී -->
+    <tag name="ADV">36</tag><!-- ඉතා, දැන්, අද, එහි, පෙර, මුළුමනින්, අඛණ්ඩ, අවසාන, එදා, එලෙස -->
+    <tag name="AUX">47</tag><!-- තිබෙ, ඇත, හැකි, නැත, වෙ, යුතු, නෑ, තිබ, පවති, ලබ -->
+    <tag name="CCONJ">6</tag><!-- හා, එහෙත්, මෙන් -->
+    <tag name="DET">23</tag><!-- මේ, එම, ඒ, සෑම, අදාළ, අනෙක්, එබඳු, ඕනෑ, කිසිඳු, තව -->
+    <tag name="NOUN">308</tag><!-- ආර්ථික, ජනතා, මහතා, තත්ත්ව, රට, රාජ්‍ය, කර, දේශපාලන, ප්‍රධාන, හමුදා -->
+    <tag name="NUM">4</tag><!-- 1990, දෙවන, පළමු, හතර -->
+    <tag name="PART">93</tag><!-- ය, ම, ද, ගැන, දී, නො, ඉටු, ගේ, බව, ලෙස -->
+    <tag name="PRON">44</tag><!-- ඔහු, එය, ඒ, අපි, සිය, අප, එකිනෙක, එහි, ඔවුන්, ඔවුහු -->
+    <tag name="PROPN">38</tag><!-- ලංකා, ශ්‍රී, මහින්ද, රනිල්, රාජපක්ෂ, වික්‍රමසිංහ, ෆොන්සේකා, අමෙරිකා, ඉන්දියා, ඉරාන -->
+    <tag name="PUNCT">100</tag><!-- ., _ -->
+    <tag name="VERB">107</tag><!-- කර, වෙ, ගන්, දෙ, ඇත, තිබෙ, පවති, පාව, දර, පිහිට -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="54">
+    <feat name="AdpType" value="Post" upos="ADP,PART">94</feat><!-- ය, ම, ද, සඳහා, ගැන, දී, පිළිබඳ, බව, ලෙස, ගේ -->
+    <feat name="AdpType" value="Prep" upos="PART">2</feat><!-- නො -->
+    <feat name="AdvType" value="Loc" upos="ADV">4</feat><!-- එහි, මෙහි -->
+    <feat name="AdvType" value="Man" upos="ADV">9</feat><!-- මුළුමනින්, අඛණ්ඩව, එලෙස, එසේ, නිදහසේ, මැනැවින්, ශීඝ්‍ර, හැබෑවට -->
+    <feat name="AdvType" value="Tim" upos="ADV">9</feat><!-- දැන්, අද, අවසානයේ, එදා, තෙවනුව, පෙර -->
+    <feat name="Animacy" value="Anim" upos="NOUN,PRON,PROPN">40</feat><!-- ජනතාවට, කොටි, රාජපක්ෂ, අපට, අය, ආරක්ෂක, ඔව්හු, ඔවුනට, ඔවුන්, කෙනාම -->
+    <feat name="Animacy" value="Inan" upos="NOUN,PRON,PROPN">45</feat><!-- ඊට, අංශ, අත, අමෙරිකාවේ, ආයතන, ආර්ථිකය, ආරාමවලට, උපදේශ, එය, කඩය -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">21</feat><!-- කර, දී, ඇත, තිබේ, පිහිටා, අත්හිටුවා, ඇති, කඩකර, කියා, ගළපා -->
+    <feat name="Aspect" value="Prog" upos="VERB">3</feat><!-- දරමින්, යමින්, වෙමින් -->
+    <feat name="Aspect" value="Prosp" upos="AUX,VERB">6</feat><!-- නැත, වනු, ඇත -->
+    <feat name="Case" value="Abl" upos="NOUN,PRON">5</feat><!-- අතින්, ඉන්, ඉරානයෙන්, ඡන්දයෙන්, පිට්ටනියෙන් -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">99</feat><!-- ඒ, කිරීම, ජනතාව, ප්‍රධානයකු, රට, හැඟීමක්, අදහස, අදහසක්, අදියර, අයවැය -->
+    <feat name="Case" value="Ben" upos="NOUN">1</feat><!-- ජනතාවට -->
+    <feat name="Case" value="Cns" upos="NOUN">4</feat><!-- කොමිස්වලට, ගිවිසුමට, රටට, ලංකාවට -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON,PROPN">19</feat><!-- ඊට, ඔහුට, ජනතාවට, අධිපතිවරයාට, අපට, ඔවුනට, දේශප්‍රේමීන්ට, නායකයකුට, පක්ෂයට, බවට -->
+    <feat name="Case" value="Gen" upos="NOUN,PROPN">13</feat><!-- හමුදාවේ, අමෙරිකාවේ, ආසියාවේ, උපායෙහි, කරගැනීමේ, ක්‍රමයේ, ජාතියේ, මණ්ඩලයේ, ලෝකයේ, වන්නියේ -->
+    <feat name="Case" value="Ill" upos="NOUN">1</feat><!-- ආරාමවලට -->
+    <feat name="Case" value="Ine" upos="NOUN">13</feat><!-- අත්අඩංගුවේ, කේන්ද්‍රස්ථානයක, ජපානයේ, නගරයේ, ප්‍රදේශවල, මධ්‍යයේ, මෙරට, රාජ්‍යයක, රාජ්‍යයේ, ලිපියක -->
+    <feat name="Case" value="Ins" upos="NOUN">7</feat><!-- ක්‍රමය, කාලයකින්, කිරෙන්, කිහිපයකින්, පරිත්‍යාගයෙන්, ලේඛනයෙනි, වීමෙන් -->
+    <feat name="Case" value="Loc" upos="NOUN,PRON">9</feat><!-- එහි, ආසන්නයේ, කලාපයෙකි, තත්ත්වයක, මොහොතේ, වටරවුමේ, විද්‍යාවේ -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN">175</feat><!-- ඔහු, ආර්ථික, එය, මහතා, දේශපාලන, අද, ඒ, තත්ත්වය, යුද, අය -->
+    <feat name="Definite" value="Def" upos="ADV,NOUN,PROPN,VERB">140</feat><!-- මහතා, කිරීම, ආණ්ඩුව, ජනතාව, තත්ත්වය, අයවැය, අවස්ථාව, ආර්ථිකය, උද්ධමනය, ක්‍රමය -->
+    <feat name="Definite" value="Ind" upos="NOUN,PRON,PROPN">51</feat><!-- කිහිපයක්, ප්‍රධානයකු, හැඟීමක්, අදහසක්, කතාවක්, කයිවාරුවක්, කලකට, කලක්, කලාපයෙකි, කාරණයෙකි -->
+    <feat name="Degree" value="Pos" upos="ADJ,NOUN">33</feat><!-- වැදගත්, වැඩි, හොඳ, අල්පේච්ඡ, අලුත්, අවංක, උද්ධච්ඡ, උපරිම, කාලීන, කෙටි -->
+    <feat name="Foreign" value="Yes" upos="PROPN">4</feat><!-- කොසෝවෝ, පලස්තීනය, ෂැවොලින්, සර්බියානු -->
+    <feat name="Gender" value="Masc" upos="NOUN,PRON,PROPN">54</feat><!-- ඔහු, මහතා, ඔහුට, ජනතාව, ප්‍රධානයකු, මහින්ද, රනිල්, වික්‍රමසිංහ, ෆොන්සේකා, අධිපතිවරයාට -->
+    <feat name="Gender" value="Neut" upos="NOUN,PRON,PROPN">210</feat><!-- ඒ, අයවැය, ආණ්ඩුව, ආර්ථික, තත්ත්වය, දේශපාලන, යුද, ලංකාව, අවස්ථාව, ආර්ථිකය -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">62</feat><!-- තිබේ, වේ, කර, වනු, විය, වී, සිටියේ, ඉදිවිණි, කඩකර, කරති -->
+    <feat name="Mood" value="Nec" upos="VERB">5</feat><!-- කළ, දිය, භාරගත, විය -->
+    <feat name="Mood" value="Pot" upos="VERB">5</feat><!-- කළ, ගත, ලබාගත, විය, සැලකිය -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON,VERB">65</feat><!-- කොටි, අංශ, අපට, අභියෝග, අයවැය, අස්සන්, ආණ්ඩුව, ආයතන, ආරාධනා, ආරාමවලට -->
+    <feat name="Number" value="Ptan" upos="NOUN">10</feat><!-- යුද, කලකට, කලක්, ගිනි, දේශපාලන, බදු, විනය, සල්ලි, හමුදාවේ -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN,VERB">229</feat><!-- ඔහු, එය, මහතා, කිරීම, එහි, ජනතාව, තත්ත්වය, ලංකාව, අයවැය, අවස්ථාව -->
+    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- 1990, හතර -->
+    <feat name="NumType" value="Ord" upos="ADJ,NOUN,NUM">4</feat><!-- දෙවැන්න, පළමු, පළමුව -->
+    <feat name="Person" value="1" upos="PRON,VERB">2</feat><!-- අපට, කරමු -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PRON,PROPN,VERB">29</feat><!-- ඔහු, මහතා, මහින්ද, රනිල්, රාජපක්ෂ, වික්‍රමසිංහ, ෆොන්සේකා, ඔවුන්, ඔහුට, කරති -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART">8</feat><!-- නැත, නො -->
+    <feat name="Poss" value="Yes" upos="PRON">5</feat><!-- සිය, අප, අපේ, තම -->
+    <feat name="PronType" value="Dem" upos="PRON">22</feat><!-- ඒ, එය, එහි, ඊට, ඉන්, එම, මීට, මෙය -->
+    <feat name="PronType" value="Ind" upos="PRON">1</feat><!-- කිහිපයක් -->
+    <feat name="PronType" value="Prs" upos="PRON">18</feat><!-- ඔහු, ඔහුට, අප, අපට, අපේ, ඔව්හු, ඔවුනට, ඔවුන්, තම, සිය -->
+    <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- එකිනෙකා -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">40</feat><!-- කළේ, කර, පිහිටා, විය, වී, සිටියේ, ඇහිරුණු, ඉදිවිණි, කළහ, කී -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">47</feat><!-- තිබේ, වේ, ඇත්තේ, වන්නේ, පවතින, කරති, කරන, කරමු, කෙරේ, ගනිති -->
+    <feat name="Typo" value="Yes" upos="NOUN,PRON">2</feat><!-- ඔව්හු, ප්‍රධානයා -->
+    <feat name="VerbForm" value="Conv" upos="VERB">9</feat><!-- අත්හිටුවා, කඩකර, කර, කියා, ගළපා, දුන්නේ, පිහිටා, යමින්, වෙමින් -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">68</feat><!-- තිබේ, නැත, ඇත, හැකි, වේ, ඇත්තේ, යුතු, විය, ඉදිවිණි, කරති -->
+    <feat name="VerbForm" value="Ger" upos="NOUN,VERB">21</feat><!-- කිරීම, වනු, අතුරුදන්වීම්, කරගැනීමේ, කිරීමට, ගැනීම, ගැනීමේ, ගොඩනැඟීම, දැනගැනීම, පැරදවීම -->
+    <feat name="VerbForm" value="Inf" upos="VERB">12</feat><!-- කළ, විය, කිරීමට, ගත, දිය, පිළිගන්නට, භාරගත, ලබාගත, සැලකිය -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">55</feat><!-- කර, පාවා, වී, කළේ, දී, පවතින, වන්නේ, සිටියේ, හැකි, අවශ්‍ය -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">8</feat><!-- හැඟීමක්, ඉල්ලීම, දැනුම, පැමිණියෝ, මෙහෙයුම්, වගකීම, වැටහීමක් -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">38</feat><!-- කළේ, කළ, සිටියේ, කඩකර, කර, කරති, කරන, කරමු, කළහ, කියා -->
+    <feat name="Voice" value="Pass" upos="VERB">11</feat><!-- ඇහිරුණු, ඉදිවිණි, කෙරේ, දැමිණි, පැවැතිණි, පෙනී, පෙරැළී, ලැබෙන්නේ, වනු, විය -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="34">
+    <dep name="acl">16</dep>
+    <dep name="advcl">1</dep>
+    <dep name="advmod">43</dep>
+    <dep name="advmod:emph">1</dep>
+    <dep name="amod">36</dep>
+    <dep name="aux">38</dep>
+    <dep name="aux:pass">1</dep>
+    <dep name="case">53</dep>
+    <dep name="cc">6</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="compound">29</dep>
+    <dep name="compound:lvc">39</dep>
+    <dep name="compound:prt">3</dep>
+    <dep name="compound:svc">14</dep>
+    <dep name="conj">3</dep>
+    <dep name="cop">2</dep>
+    <dep name="csubj">17</dep>
+    <dep name="dep">69</dep>
+    <dep name="det">24</dep>
+    <dep name="det:poss">1</dep>
+    <dep name="flat">19</dep>
+    <dep name="mark">2</dep>
+    <dep name="nmod">53</dep>
+    <dep name="nmod:poss">11</dep>
+    <dep name="nmod:tmod">1</dep>
+    <dep name="nsubj">109</dep>
+    <dep name="nummod">1</dep>
+    <dep name="obj">42</dep>
+    <dep name="obl">24</dep>
+    <dep name="obl:lmod">10</dep>
+    <dep name="obl:tmod">9</dep>
+    <dep name="punct">100</dep>
+    <dep name="root">100</dep>
+    <dep name="xcomp">2</dep>
+  </deps>
+</treebank>
