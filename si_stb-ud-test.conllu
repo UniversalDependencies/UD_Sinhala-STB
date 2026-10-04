@@ -531,7 +531,7 @@
 # sent_id = 1044
 # text = ලිප්ටන් වටරවුමේ පිකට් කිරීමට ද බාධාවක් නැත .
 # translit = lipṭan vaṭaravumē pikaṭ kirīmaṭa da bādhāvak næta .
-1	ලිප්ටන්	ලිප්ටන්	PROPN	_	Case=Nom	3	obl:lmod	_	Translit=lipṭan|LTranslit=lipṭan
+1	ලිප්ටන්	ලිප්ටන්	PROPN	_	Case=Nom	3	nmod	_	Translit=lipṭan|LTranslit=lipṭan
 2	වටරවුමේ	වටරවුම	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	1	flat	_	Translit=vaṭaravumē|LTranslit=vaṭaravuma
 3	පිකට්	පිකට්	NOUN	_	Case=Nom	6	nsubj	_	Translit=pikaṭ|LTranslit=pikaṭ
 4	කිරීමට	කර	VERB	_	VerbForm=Inf	3	csubj	_	Translit=kirīmaṭa|LTranslit=kara
@@ -1104,7 +1104,7 @@
 1	හම්බන්තොට	හම්බන්තොට	PROPN	_	Animacy=Inan|Case=Nom|Number=Sing	3	nsubj	_	Translit=hambantoṭa|LTranslit=hambantoṭa
 2	පිහිටා	පිහිට	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	3	compound:svc	_	Translit=pihiṭā|LTranslit=pihiṭa
 3	ඇත්තේ	ඇත	VERB	_	Tense=Pres|VerbForm=Fin	9	csubj	_	Translit=ættē|LTranslit=æta
-4	ලොව	ලොව	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Gender=Neut	8	obl:lmod	_	Translit=lova|LTranslit=lova
+4	ලොව	ලොව	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Gender=Neut	8	nmod	_	Translit=lova|LTranslit=lova
 5	කාර්ය	කාර්ය	NOUN	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	compound	_	Translit=kārya|LTranslit=kārya
 6	බහුල	බහුල	ADJ	_	_	8	amod	_	Translit=bahula|LTranslit=bahula
 7	නෞකා	නෞකා	NOUN	_	Animacy=Inan|Case=Nom|Definite=Def|Number=Plur	8	nmod	_	Translit=naukā|LTranslit=naukā
