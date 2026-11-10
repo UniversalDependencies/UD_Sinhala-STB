@@ -110,14 +110,14 @@
     <dep name="det:poss">1</dep>
     <dep name="flat">19</dep>
     <dep name="mark">2</dep>
-    <dep name="nmod">53</dep>
+    <dep name="nmod">55</dep>
     <dep name="nmod:poss">11</dep>
     <dep name="nmod:tmod">1</dep>
     <dep name="nsubj">109</dep>
     <dep name="nummod">1</dep>
     <dep name="obj">42</dep>
     <dep name="obl">24</dep>
-    <dep name="obl:lmod">10</dep>
+    <dep name="obl:lmod">8</dep>
     <dep name="obl:tmod">9</dep>
     <dep name="punct">100</dep>
     <dep name="root">100</dep>
